@@ -1,0 +1,150 @@
+.navbar {
+    width: 100%;
+    overflow: visible;
+    background-color: var(--nav-bg);
+}
+
+.header-inner {
+    width: 100%;
+    overflow: visible;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* Logo */
+.logo-block {
+    width: 20%;
+    text-align: center;
+}
+
+.logo-block img {
+    width: 180px;
+    height: 100%;
+}
+
+.site-title {
+    font-size: 20px;
+    color: #0a5cff;
+}
+
+.top-bar {
+    width: 80%;
+    height: 40px;
+    background: #00A4A3;
+    color: #f4ebeb;
+    font-weight: 600;
+    padding: 12px 50px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.top-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.top-info img {
+    width: 18px;
+}
+
+/* Social */
+.social-links {
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #f4ebeb;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-6px);
+}
+
+/* menu */
+.menu-header {
+    overflow: visible;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 18px 0px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #f4ebeb;
+    font-family: var(--head-font);
+    font-size: 17px;
+    margin-left: 34px;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+.nav-menu a:hover {
+    transform: translateY(-4px);
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: none;
+    flex-direction: column;
+    min-width: 120px;
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+/* Button */
+.header-button {
+    width: 30%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.appointment-btn {
+    background: #00A4A3;
+    color: #f4ebeb;
+    padding: 16px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all .3s ease;
+}
+
+.appointment-btn:hover {
+    background-color: var(--prim-hover);
+}
