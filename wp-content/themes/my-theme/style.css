@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,380&family=Outfit:wght@500&display=swap');
+
+:root {
+    /* bg color */
+    --bg-prim: #fafafa;
+    --bg-sec: #e7e7e0;
+    --nav-bg: #003D4D;
+    --footer-bg: #003D4D;
+
+    /* color */
+    --prim-color: 
+
+    /* btn */
+    --btn-prim: #00A4A3;
+    --prim-hover: #00546A;
+
+    --highlight-hover: #003D4D;
+
+    /* font family */
+    --head-font: "Outfit", sans-serif;
+    --body-font: "Inter", sans-serif;
+
+    /* size */
+    --maxw: 1280px;
+    --title-font: 42px;
+}

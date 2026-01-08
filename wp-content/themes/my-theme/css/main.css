@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    background-color: var(--bg-prim);
+}
+
+.container {
+    width: 100%;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    overflow: hidden;
+}
