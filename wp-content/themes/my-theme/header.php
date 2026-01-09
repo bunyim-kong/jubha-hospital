@@ -47,18 +47,17 @@
 
         <nav class="nav-menu">
             <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Doctors</a>
-
+            <a href="#">Hospital & Clinics</a>
+            <a href="#">Patient Information</a>
+            <a href="">Contact</a>
+   
             <div class="dropdown">
-                <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+                <a href="#">About us <i class="fas fa-chevron-down"></i></a>
                 <div class="dropdown-menu">
                     <a href="#">Page 1</a>
                     <a href="#">Page 2</a>
                 </div>
             </div>
-
-            <a href="#">Blog</a>
         </nav>
 
         <div class="header-button">
