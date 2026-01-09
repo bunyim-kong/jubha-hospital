@@ -18,23 +18,23 @@
 
 .slide-overlay {
   width: 100%;
-  height: 78%;
+  height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 300;
-  margin-top: 6%;
   padding-left: 140px;
   text-align: left;
-  background-color: rgba(255, 192, 203, 0.342);
+  background: #003D4D;
+  background: linear-gradient(90deg, rgba(0, 61, 77, 0.53) 0%, rgba(0, 61, 77, 0.4) 35%, rgba(0, 212, 255, 0) 100%);
 }
 
 .overlay-text {
   position: absolute;
-  top: 45%;
-  left: 24%;
-  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 23%;
+  transform: translate(-40%, -50%);
 }
 
 .overlay-text span{

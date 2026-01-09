@@ -18,6 +18,30 @@ body {
     overflow: hidden;
 }
 
+.header-page {
+    max-width: 100%;
+    background-color: var(--bg-sec);
+    padding: 220px 0px 10px 140px;
+}
+
+.header-page span {
+    font-size: 16px;
+}
+
+.header-page span a {
+    text-decoration: none;
+    color: var(--btn-prim);
+    font-family: var(--head-font);
+    font-weight: bold;
+}
+
+.header-page h1 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: var(--head-font);
+    color: var(--nav-bg);
+}
+
 
 .highligh_text{
     font-family: var(--head-font);
@@ -28,7 +52,10 @@ body {
 .highligh_tittle{
     font-family: var(--head-font);
     color: white;
-    margin: 0%;
-    
+    margin: 0%; 
 }
 
+.head_des {
+    font-size: 19px;
+    colo
+}
