@@ -17,3 +17,18 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
+
+
+.highligh_text{
+    font-family: var(--head-font);
+    color: white;
+    margin: 0%; 
+}
+
+.highligh_tittle{
+    font-family: var(--head-font);
+    color: white;
+    margin: 0%;
+    
+}
+
