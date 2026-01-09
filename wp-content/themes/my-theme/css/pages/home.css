@@ -3,13 +3,10 @@
   height: 100%;
 }
 
-    .swiper-slide {
-  text-align: center;
+.swiper-slide {
   font-size: 18px;
   background: #444;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .swiper-slide img {
@@ -18,3 +15,36 @@
   height: 100%;
   object-fit: cover;
 }
+
+.slide-overlay {
+  width: 100%;
+  height: 78%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 300;
+  margin-top: 6%;
+  padding-left: 140px;
+  text-align: left;
+  background-color: rgba(255, 192, 203, 0.342);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 45%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-text span{
+  font-family: var(--head-font);
+  color: aliceblue;
+}
+
+.overlay-text h1{
+  font-family: var(--head-font);
+  color: aliceblue;
+}
+
+
