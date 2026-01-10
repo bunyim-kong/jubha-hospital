@@ -24,6 +24,7 @@
 .logo-block img {
     width: 200px;
     height: 100%;
+    
 }
 
 .site-title {
@@ -93,7 +94,6 @@
     color: #f4ebeb;
     font-family: var(--head-font);
     font-size: 17px;
-    margin-left: 12px;
     text-transform: capitalize;
     transition: all .3s ease;
 }

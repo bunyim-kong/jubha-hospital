@@ -50,10 +50,10 @@
 
 /* main_search*/
 .main_search{
-width:100%;
-margin: 0%;
-padding: 0%;
-background-color: #003D4D;
+  width:100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: #003D4D;
 }
 
 .find_docter{
@@ -63,11 +63,8 @@ background-color: #003D4D;
   align-items: center;
 }
 
-
-
 .search_tittle{
   color: aliceblue;
   top: 60%;
   left: 22%;
-
 }

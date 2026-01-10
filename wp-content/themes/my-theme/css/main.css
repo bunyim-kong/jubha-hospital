@@ -21,11 +21,12 @@ body {
 .header-page {
     max-width: 100%;
     background-color: var(--bg-sec);
-    padding: 220px 0px 10px 140px;
+    padding: 220px 0px 10px 125px;
 }
 
 .header-page span {
     font-size: 16px;
+    padding: 0;
 }
 
 .header-page span a {
@@ -40,6 +41,14 @@ body {
     font-weight: bold;
     font-family: var(--head-font);
     color: var(--nav-bg);
+}
+
+/* content parent */
+.content-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
 }
 
 
@@ -57,5 +66,4 @@ body {
 
 .head_des {
     font-size: 19px;
-    colo
 }
