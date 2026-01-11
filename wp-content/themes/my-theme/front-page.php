@@ -3,7 +3,7 @@
 <link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/home.css"/>
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 <?php get_header();?>
-<?php get_footer();?>
+
 
 <section class="hero-section">
   <!-- Swiper -->
@@ -187,3 +187,5 @@
     },
   });
 </script>
+
+<?php get_footer();?>
