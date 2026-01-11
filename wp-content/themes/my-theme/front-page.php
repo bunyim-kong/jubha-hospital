@@ -3,6 +3,7 @@
 <link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/home.css"/>
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 <?php get_header();?>
+<?php get_footer();?>
 
 <section class="hero-section">
   <!-- Swiper -->
@@ -143,14 +144,16 @@
   </div>
 </section>
 
-<!-- introduction start -->
 
+
+
+<!-- introduction start -->
 <section class='content_section container'>
   <div class="content-wrapper">
     <div class="content_tittle">
-      <h6>ABout us</h6>
+      <h4>ABout us</h4>
           <h2>Seven decades of care and quality</h2>
-          <p> Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Almana believes in offering compassionate care, inspired by family values which ...</p>
+          <p> Since our inception in 1949, we have a legacy of excellence. <br> We are a family hospital fully dedicated to caring for the <br> needs of the patients, communities, and Kingdom we serve <br> to keep healthy. Almana believes in offering compassionate  <br> care, inspired by family values which ...</p>
           <p><a href="#" class="appointment-btn">
               Read More <i class="fas fa-chevron-right"></i>
             </a></p>
