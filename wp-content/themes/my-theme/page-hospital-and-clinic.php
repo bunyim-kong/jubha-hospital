@@ -24,7 +24,7 @@
             <div class="location-info">
                 <h1>AMC Rakkah</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('amc-rakkah'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -107,5 +107,3 @@
         </article>
     </div>
 </section>
-
-<?php get_footer();?>
