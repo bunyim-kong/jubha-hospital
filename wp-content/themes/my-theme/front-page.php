@@ -74,21 +74,6 @@
         </div>
       </div>
 
-      <!-- <div class="swiper-slide">
-        <img
-          src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/banner2.png"alt=""/>
-
-        <div class="slide-overlay">
-          <div class="overlay-text">
-            <span>Almana Group of Hospitals</span>
-            <h1>Quality Healthcare Closer to You</h1>
-            <a href="#" class="appointment-btn">
-              Explore our locations<i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        </div>
-      </div> -->
-
       <div class="swiper-slide">
         <img
           src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/banner3.png"
@@ -110,17 +95,74 @@
     <div class="swiper-pagination"></div>
   </div>
 </section>
-<!-- main_search -->
-<div class="main_search">
-<div class="find_docter">
-  <div class="search_tittle"> <h1>Find A Docter</h1></div>
-  <div class="btn_search">
+
+<section class="find-doctor-section">
+  <div class="find-doctor-container">
+
+    <h2 class="find-doctor-title">Find Doctor</h2>
+
+    <form class="find-doctor-form" action="/search-results" method="GET">
+
+      <!-- Location Dropdown -->
+      <div class="field-group">
+        <select name="location" required>
+          <option value="">Select Location</option>
+          <option value="AMC Rakkah">AMC Rakkah</option>
+          <option value="AGH Khobar">AGH Khobar</option>
+          <option value="AGH Dammam">AGH Dammam</option>
+          <option value="Oncology Center">Oncology Center</option>
+          <option value="AGH Aziziah">AGH Aziziah</option>
+          <option value="AGH Jubail">AGH Jubail</option>
+          <option value="AMC Jubail">AMC Jubail</option>
+          <option value="AGH Hofuf">AGH Hofuf</option>
+        </select>
+      </div>
+
+      <!-- Specialization Dropdown -->
+      <div class="field-group">
+        <select name="specialization" required>
+          <option value="">Select Specialization</option>
+          <option value="Cardiology">Cardiology</option>
+          <option value="Dermatology">Dermatology</option>
+          <option value="Orthopaedic">Orthopaedic</option>
+          <option value="Neurology">Neurology</option>
+          <option value="Pediatrics">Pediatrics</option>
+          <option value="Obstetric & Gynecology">Obstetric & Gynecology</option>
+          <option value="Urology">Urology</option>
+          <option value="Internal Medicine">Internal Medicine</option>
+        </select>
+      </div>
+
+      <!-- Search Button -->
+      <button type="submit" class="find-doctor-btn">
+        Find Doctor  <i class="fas fa-chevron-right"></i>
+      </button>
+
+    </form>
+
   </div>
-</div>
+</section>
+
+<!-- introduction start -->
+
+<section class='content_section container'>
+  <div class="content-wrapper">
+    <div class="content_tittle">
+      <h6>ABout us</h6>
+          <h2>Seven decades of care and quality</h2>
+          <p> Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Almana believes in offering compassionate care, inspired by family values which ...</p>
+          <p><a href="#" class="appointment-btn">
+              Read More <i class="fas fa-chevron-right"></i>
+            </a></p>
+    </div>
+    
+    <div class="image-cols">
+      <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/s_JAAN8284.jpg" alt="">
+    </div>
+  </div>
+</section>
 
 
-
-</div>
 
 
 

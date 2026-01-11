@@ -48,26 +48,96 @@
   color: aliceblue;
 }
 
-/* main_search*/
-.main_search{
-width:100%;
-margin: 0%;
-padding: 0%;
-background-color: #003D4D;
+
+
+/* Main Section */
+.find-doctor-section {
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg) ;
 }
 
-.find_docter{
-  width: 100%;
-  display: block;
+/* Container */
+.find-doctor-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color:;
+}
+
+/* Title */
+.find-doctor-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a2763;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.find-doctor-form {
+  display: flex;
   justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Dropdowns */
+.field-group select {
+  width: 250px;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #333;
+  background: #fafafa;
+  transition: border-color 0.3s ease;
+}
+
+.field-group select:focus {
+  border-color: #top: 50%;
+  left: 50%;005bb5;
+  outline: none;
+}
+
+/* Button */
+.find-doctor-btn {
+  background: #005bb5;
+  color: #fff;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 9px;
+  display: inline-flex;
+  font-size: 15px;
   align-items: center;
+  gap: 6px;
+  transition: all .3s ease;
+
+  
+}
+
+.find-doctor-btn:hover {
+      background-color:#00A4A3;
+
+}
+
+.content-wrapper {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.content_tittle{
+  
+}
+
+.image-cols img {
+  width: 100%;
+  height: 100%;
 }
 
 
 
-.search_tittle{
-  color: aliceblue;
-  top: 60%;
-  left: 22%;
 
-}
+
+
