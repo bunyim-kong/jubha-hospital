@@ -1,0 +1,134 @@
+footer {
+    background-color: var(--footer-bg);
+    color: var(--sec-color);
+    padding: 60px 20px 12px;
+}
+
+.footer-container {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-logo {
+    flex: 1 1 250px;
+    min-width: 380px; 
+}
+
+.footer-logo img {
+    max-width: 280px;
+    margin-bottom: 6px;
+}
+
+.footer-logo p {
+    width: 85%;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-left: 18px;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+    min-width: 250px;
+    margin-top: 16px;
+}
+
+.footer-section h3,
+.footer-section h2 {
+    font-family: var(--head-font);
+    margin-bottom: 20px;
+}
+
+.page-list,
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-list li,
+.contact-list li {
+    margin-bottom: 14px;
+}
+
+.page-list li a:hover {
+    color: var(--btn-prim);
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list li a i{
+    margin-right: 12px;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--sec-color);
+}
+
+.contact-list li a span {
+    vertical-align: middle;
+}
+
+.page-list li a {
+    text-decoration: none;
+    color: var(--sec-color);
+    transition: color 0.3s;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: var(--sec-color);
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--btn-prim);
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    flex: 1 1 auto;
+    min-width: 180px;
+}
+
+.newsletter button {
+    width: 36%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--btn-prim);
+    color: var(--sec-color);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: var(--prim-hover);
+}
+
+.copyright {
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    font-size: 14px;
+    color: var(--sec-color);
+}

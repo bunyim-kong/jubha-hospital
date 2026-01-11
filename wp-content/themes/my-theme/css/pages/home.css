@@ -48,14 +48,12 @@
   color: aliceblue;
 }
 
-
-
-/* Main Section */
-.find-doctor-section {
-  padding: 50px 20px;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  background-color: var(--bg) ;
+/* main_search*/
+.main_search{
+  width:100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: #003D4D;
 }
 
 /* Container */
