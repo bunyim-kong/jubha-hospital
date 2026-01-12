@@ -7,7 +7,7 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="">Home</a> / <a href="">Hospital and Clinic</a> / AMC Rakkah</span>
+    <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
     <h1 class="">AMC Rakkah</h1>
 </div>
 
@@ -163,25 +163,69 @@
                         </div>
                     </div>
                 </div>
-                <!-- <p><b>OPD:</b> 8:00 AM – 10:00 PM</p>
-                <p><b>Pharmacy:</b> 8:00 AM – 10:00 PM</p>
-                <p><b>Head Office:</b> 8:00 AM – 5:00 PM</p> -->
             </div>
 
             <!-- doctors -->
             <div class="content doctors-list">
-                <div class="doctors">
-                    <div class="doctor">
-                        <img src="https://pa-api.almanahospital.com.sa:1027/uploads/Avatars/Doc_7210.jpeg">
-                        <h4>Yousry Mohamed</h4>
+                <div class="doctor-wrapper">
+                    <div class="doctor-card">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/doctors/doctor-1.jpg'; ?>" alt="">
+
+                        <div class="doctor-info">
+                            <h3>Adel Suleiman Raslan</h3>
+                            <span><i class="fas fa-map-marker-alt"></i> AMC Rakkah</span>
+                            <p>Dermatology & Aesthetic Medicine</p>
+
+                            <a href="">Make Appointment<i class="far fa-calendar-check"></i></a>
+                        </div>
                     </div>
-                    <div class="doctor">
-                        <img src="https://pa-api.almanahospital.com.sa:1027/uploads/Avatars/Doc_31257.jpeg">
-                        <h4>Abeer Ahmed</h4>
+
+                    <div class="doctor-card">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/doctors/doctor-2.jpg'; ?>" alt="">
+
+                        <div class="doctor-info">
+                            <h3>Taleb Barakat Al-Hassan</h3>
+                            <span><i class="fas fa-map-marker-alt"></i> AMC Rakkah</span>
+                            <p>Dermatology, Consultant</p>
+
+                            <a href="">Make Appointment<i class="far fa-calendar-check"></i></a>
+                        </div>
                     </div>
-                    <div class="doctor">
-                        <img src="https://pa-api.almanahospital.com.sa:1027/uploads/Avatars/Doc_26712.jpeg">
-                        <h4>Moustafa Nageh</h4>
+
+                    <div class="doctor-card">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/doctors/doctor-3.jpg'; ?>" alt="">
+
+                        <div class="doctor-info">
+                            <h3>Abeer Aboelenin</h3>
+                            <span><i class="fas fa-map-marker-alt"></i> AMC Rakkah</span>
+                            <p>Dermatology, Specialist</p>
+
+                            <a href="">Make Appointment<i class="far fa-calendar-check"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/doctors/doctor-4.jpg'; ?>" alt="">
+
+                        <div class="doctor-info">
+                            <h3>Souha Bourei</h3>
+                            <span><i class="fas fa-map-marker-alt"></i> AMC Rakkah</span>
+                            <p>Dermatology ,Specialist</p>
+
+                            <a href="">Make Appointment<i class="far fa-calendar-check"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/doctors/doctor-5.jpg'; ?>" alt="">
+
+                        <div class="doctor-info">
+                            <h3>Noha Eldessouky</h3>
+                            <span><i class="fas fa-map-marker-alt"></i> AMC Rakkah</span>
+                            <p>Dermatology ,Specialist</p>
+
+                            <a href="">Make Appointment<i class="far fa-calendar-check"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
