@@ -52,16 +52,24 @@ body {
 }
 
 
-.highligh_text{
+.title_head {
+    font-size: 32px;
+    font-weight: bold;
     font-family: var(--head-font);
-    color: white;
+    color: var(--nav-bg); 
+}
+
+.highligh_title{
+    font-size: 26px;
+    font-family: var(--head-font);
+    color: var(--nav-bg);
     margin: 0%; 
 }
 
-.highligh_tittle{
-    font-family: var(--head-font);
-    color: white;
-    margin: 0%; 
+.text_des {
+    font-size: 18px;
+    color: var(--prim-color);
+    line-height: 1.6;
 }
 
 .head_des {
