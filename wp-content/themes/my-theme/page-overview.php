@@ -5,6 +5,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=play_circle" />
 
+<script src="https://unpkg.com/slim-select@latest/dist/slimselect.js"></script>
+<link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet">
+
 <?php get_header();?>
 
 <div class="header-page">
@@ -72,3 +75,25 @@
         </div>
     </div>
 </section>
+
+<section class="department-section container">
+    <div class="scroller">
+        <div class="scroller__track">
+            <!-- Group A -->
+            <div class="scroller__group">
+                <!-- dynamic-card -->
+                <div class="feature-card" id="featureCard">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/department-cardiology/s_JAAN8473.jpg" alt="Cardiology"/>
+                    <div class="feature-card-info">
+                        <h1>Cardiology</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="/scripts/scroller.js"></script>

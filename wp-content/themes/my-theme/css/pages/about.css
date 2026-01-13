@@ -70,3 +70,59 @@
     margin: 0;
     font-size: 62px;
 }
+
+
+
+
+
+.scroller {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroller__track {
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+    will-change: transform;
+    animation: marquee var(--marquee-duration) linear infinite;
+}
+
+
+.scroller__group {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;~
+    margin-bottom: 24px;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.feature-card {
+    flex: 0 0 auto;
+    background-color: pink;
+}
+
+.scroller:hover .scroller__track {
+    animation-play-state: paused;
+    cursor: grab;
+}
+
+/* @media (prefers-reduced-motion: reduce) {
+  .scroller__track {
+    animation: none;
+    transform: none;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(3%);
+  }
+  to {
+    transform: translateX(-25%);
+  }
+} */
