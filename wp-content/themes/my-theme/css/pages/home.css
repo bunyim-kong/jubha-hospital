@@ -62,7 +62,6 @@
 .find-doctor-container {
   max-width: 1200px;
   margin: 0 auto;
-  background-color:;
 }
 
 /* Title */
@@ -94,8 +93,8 @@
 }
 
 .field-group select:focus {
-  border-color: #top: 50%;
-  left: 50%;005bb5;
+  border-color:50%;
+  left: 50%;;
   outline: none;
 }
 
