@@ -166,6 +166,33 @@
 </section>
 
 
+<!-- Statistics -->
+
+<section class="statistics-start">
+<div class="container">
+<div class="main-icon">
+<div class="icon-hospital">
+  <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities "></div>
+  <div class="counter-text">
+  <h2>1200</h2><p>Qualified <br> Workforce</p>
+  </div>
+  
+</div>
+<div class="icon-hospital">
+  <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities "></div>
+  <div class="counter-text">
+  <h2>1200</h2><p>Qualified <br> Workforce</p>
+  </div>
+  
+</div>
+</div>
+
+<div class="text-show">
+</div>
+</div>
+</section>
+
+
 
 
 
