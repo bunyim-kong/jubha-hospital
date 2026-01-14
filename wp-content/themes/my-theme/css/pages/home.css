@@ -162,9 +162,9 @@
 }
 
 .containner{
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  display: block;
   gap: 20px;
 }
 
@@ -175,6 +175,8 @@
   padding: 10px 15px 33px 15px;
   border-radius: 5px;
   margin-top: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .icon-hospital{
@@ -195,6 +197,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 20px;
+
 }
 .counter-text h2{
   margin: 0;
@@ -206,7 +210,7 @@
 }
 
 .counter-text p{
-  margin: 6px 0 0;
+   margin: 6px 0 0;
   font-size: 14px;
   letter-spacing: 1.2px;
   text-transform: uppercase;

@@ -167,28 +167,44 @@
 
 
 <!-- Statistics -->
-
 <section class="statistics-start">
 <div class="container">
 <div class="main-icon">
 <div class="icon-hospital">
-  <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities "></div>
+  <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/workforce_1.svg" alt="Medical Facilities "></div>
   <div class="counter-text">
   <h2>1200</h2><p>Qualified <br> Workforce</p>
   </div>
   
 </div>
 <div class="icon-hospital">
+  <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/doctors_2.svg" alt="Specialized Doctors"></div>
+  <div class="counter-text">
+  <h2>800</h2><p>Specialized Doctors</p>
+  </div>
+
+</div>
+<div class="icon-hospital">
   <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities "></div>
   <div class="counter-text">
-  <h2>1200</h2><p>Qualified <br> Workforce</p>
+  <h2>9</h2><p>Medical Facilities </p>
   </div>
-  
-</div>
+
 </div>
 
-<div class="text-show">
-</div>
+<div class="icon-hospital">
+  <div class="counter-icon"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/bed.svg" alt="Total beds"></div>
+  <div class="counter-text">
+  <h2>1300</h2><p>Total Beds</p>
+  
+  </div>
+
+  <!-- <div class="text-show">
+   <h2>AGH At a Glance </h2>
+   <p>We provide specialized units in various medical specialties</p>
+</div> -->
+
+
 </div>
 </section>
 
