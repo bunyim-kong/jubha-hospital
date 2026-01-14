@@ -59,8 +59,12 @@ body {
     color: var(--nav-bg); 
 }
 
-.highligh_title{
-    font-size: 26px;
+
+
+
+
+
+.highligh_tittle{
     font-family: var(--head-font);
     color: var(--nav-bg);
     margin: 0%; 
