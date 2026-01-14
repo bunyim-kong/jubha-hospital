@@ -159,10 +159,12 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+  display: block;
+  justify-content: center;
+
 }
 
 .containner{
-  justify-content: space-between;
   align-items: center;
   display: block;
   gap: 20px;
@@ -177,6 +179,10 @@
   margin-top: 50px;
   display: flex;
   gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
 }
 
 .icon-hospital{
@@ -210,12 +216,18 @@
 }
 
 .counter-text p{
-   margin: 6px 0 0;
+  margin: 6px 0 0;
   font-size: 14px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   opacity: 0.9;
   color: var(--bg-prim);
+}
+
+.text-show{
+  width: 100%;
+  margin-top: 40px; 
+  text-align: center;
 }
 
 
