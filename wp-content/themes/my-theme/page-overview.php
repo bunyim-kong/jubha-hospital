@@ -76,23 +76,118 @@
     </div>
 </section>
 
-<section class="department-section container">
-    <div class="scroller">
+<section class="department-section">
+    <div class="bg-image"></div>
+    <div class="department-infor container">
+        <div class="text">
+            <p>Transforming healthcare in the Eastern Province.We deliver a wide range of high-quality services,built on an exellence legacy of exceptional health care.</p>
+        </div>
+
+        <div class="btn"><a class="appointment-btn" href="">All departments</a></div>
+    </div>
+
+    <div class="scroller scroll-container">
         <div class="scroller__track">
-            <!-- Group A -->
             <div class="scroller__group">
-                <!-- dynamic-card -->
-                <div class="feature-card" id="featureCard">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/department-cardiology/s_JAAN8473.jpg" alt="Cardiology"/>
-                    <div class="feature-card-info">
-                        <h1>Cardiology</h1>
-                    </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/Anesthesiology.svg">
+                    </a>
+                    <h1>Anesthesiology</h1>
                 </div>
 
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/cardiology.svg" alt="Cardiac Surgery">
+                    </a>
+                    <h1>Cardiac Surgery</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/cath.svg">
+                    </a>
+                    <h1>Cath Lab</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/emergency.svg">
+                    </a>
+                    <h1>Emergency</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/endoscopy_3.svg">
+                    </a>
+                    <h1>Endoscopy</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/Intensive_Care.svg">
+                    </a>
+                    <h1>Intensive Care Unit</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/nursery.svg">
+                    </a>
+                    <h1>Nursery</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/physical_therapy.svg">
+                    </a>
+                    <h1>Physical Therapy</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/respiratory_therapy.svg">
+                    </a>
+                    <h1>Respiratory Therapy</h1>
+                </div>
+
+                <div class="feature-card">
+                    <a href="">
+                        <span class="bg"></span>
+                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/thoracic_surgery.svg">
+                    </a>
+                    <h1>Thoracic Surgery</h1>
+                </div>
+                
             </div>
         </div>
     </div>
 </section>
+
+<div class="hospital-section">
+     <div class="content-wrapper container">
+        <div class="hospital-infor">
+            <p class="head_des">
+                Establishing itself as the center for healthcare excellence in the Kingdom, Almana presently employs more than 6,500+ highly qualified professionals including 800+ specialized doctors and has extended its services to operating and managing healthcare contracts in other regions of Saudi Arabia.
+            </p>
+        </div>
+
+        <div class="hospital-cols-content">
+            
+        </div>
+     </div>
+</div>
 
 
 
