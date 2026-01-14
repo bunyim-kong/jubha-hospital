@@ -3,12 +3,13 @@
 :root {
     /* bg color */
     --bg-prim: #fafafa;
-    --bg-sec: #e7e7e0;
+    --bg-sec: #dcf2f1;
     --nav-bg: #003D4D;
     --footer-bg: #003D4D;
 
     /* color */
-    --prim-color: 
+    --prim-color: #0e0d0d;
+    --sec-color: #fcfefe;
 
     /* btn */
     --btn-prim: #00A4A3;

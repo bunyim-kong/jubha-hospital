@@ -1,20 +1,8 @@
-<link
-  rel="stylesheet"
-  href="<?php echo get_template_directory_uri(); ?>/css/main.css"
-/>
-<link
-  rel="stylesheet"
-  href="<?php echo get_template_directory_uri(); ?>/style.css"
-/>
-<link
-  rel="stylesheet"
-  href="<?php echo get_template_directory_uri(); ?>/css/components/header.css"
-/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/header.css"/>
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 
 <header class="navbar">
   <div class="header-inner container">
@@ -55,18 +43,34 @@
   <!-- ===== MENU AREA ===== -->
   <div class="menu-header container">
     <nav class="nav-menu">
-      <a href="#">Home</a>
-      <a href="#">Hospital & Clinics</a>
+      <a href="<?php echo home_url('home'); ?>">Home</a>
+
+      <div class="dropdown">
+        <p>Hospital & Clinics <i class="fas fa-caret-down"></i></p>
+
+        <div class="dropdown-menu">
+          <a href="<?php echo home_url('hospital-and-clinic'); ?>">All Location</a>
+          <a href="<?php echo home_url('amc-rakkah'); ?>">AMC Rakkah</a>
+          <a href="">AGH Khobar</a>
+          <a href="">AGH Dammam</a>
+          <a href="">AGH Aziziah Dammam</a>
+          <a href="#">AGH Jubail</a>
+          <a href="#">AGH Jubail</a>
+          <a href="">AGH Hofuf</a>
+        </div>
+      </div>
+
       <a href="#">Patient Information</a>
       <a href="">Contact</a>
 
       <div class="dropdown">
-        <a href="#">About us <i class="fas fa-chevron-down"></i></a>
+        <p>About us <i class="fas fa-caret-down"></i></p>
         <div class="dropdown-menu">
           <a href="#">Page 1</a>
           <a href="#">Page 2</a>
         </div>
       </div>
+
     </nav>
 
     <div class="header-button">
