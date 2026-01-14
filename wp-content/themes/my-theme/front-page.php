@@ -159,9 +159,21 @@
             </a></p>
     </div>
     
-    <div class="image-cols">
-      <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/s_JAAN8284.jpg" alt="">
-    </div>
+    
+    <div class="overview-vdo">
+            <a href="https://www.youtube.com/watch?v=QdM77xj2C0I"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/s_JAAN8284.jpg" alt=""></a>
+
+            <div class="vdo-play-icon">
+                <span class="material-symbols-outlined">play_circle</span>
+            </div>
+
+            <div class="text-overlay">
+                <span>Serving the <br>
+                community since</span>
+                <h1>1949</h1>
+            </div>
+        </div>
+
   </div>
 </section>
 
