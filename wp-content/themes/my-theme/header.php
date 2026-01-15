@@ -66,9 +66,9 @@
         <p>About us <i class="fas fa-caret-down"></i></p>
         <div class="dropdown-menu">
           <a href="<?php echo home_url('overview'); ?>">Overview</a>
-          <a href="#">Our Culture</a>
-          <a href="">CEO Message</a>
-          <a href="">PlaneTree</a>
+          <a href="<?php echo home_url('our-culture'); ?>">Our Culture</a>
+          <a href="<?php echo home_url('ceo-message'); ?>">CEO Message</a>
+          <a href="<?php echo home_url('planetree'); ?>">PlaneTree</a>
         </div>
       </div>
 
