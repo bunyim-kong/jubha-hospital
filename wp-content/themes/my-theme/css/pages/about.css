@@ -310,7 +310,7 @@
 
 
 .stats-section {
-    padding: 30px 20px;
+    padding: 60px 20px 80px 20px;
     background-color: var(--bg-sec);
 }
 
@@ -343,7 +343,7 @@
 }
 
 .stat-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 61, 77, 0.1);
 }
 
@@ -388,7 +388,7 @@
 
 
 .visionary-section {
-    padding: 60px 20px;
+    padding: 70px 20px;
 }
 
 .container {
@@ -469,6 +469,7 @@
     margin-bottom: 20px;
     line-height: 1.8;
     color: #444;
+    font-size: 18px;
 }
 
 
