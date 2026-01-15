@@ -147,83 +147,98 @@
 
 
 
-<!-- introduction start -->
-<section class='content_section container'>
-  <div class="content-wrapper">
-    <div class="content_tittle">
-      <h4>ABout us</h4>
-          <h2>Seven decades of care and quality</h2>
-          <p> Since our inception in 1949, we have a legacy of excellence. <br> We are a family hospital fully dedicated to caring for the <br> needs of the patients, communities, and Kingdom we serve <br> to keep healthy. Almana believes in offering compassionate  <br> care, inspired by family values which ...</p>
-          <p><a href="#" class="appointment-btn">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a></p>
+<!-- About section -->
+<section class='about-section container'>
+ <div class="about-content content-wrapper">
+        <div class="text-side">
+            <span class="sub-headline">Seven decades of care and quality</span>
+
+            <h1 class="main-title">The Hospital</h1>
+            
+            <div class="description">
+                <p class="lead-text">
+                    Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Almana believes in offering compassionate care, inspired by family values which has kept patients happier and healthier for over 75 years – this is a deeply ingrained part of our DNA. What’s more, our rich legacy of delivering person-centric, specialized, integrated, and comprehensive care, makes Almana a trusted institution and drives our journey to meet the growing needs of today and generations to come.
+                </p>
+            </div>
+        </div>
+        
+        <div class="vdo-side">
+            <div class="mp4-container">
+                <a href="https://youtu.be/QdM77xj2C0I?si=B9oZmV19PteUUz9G" target="_blank" class="video-trigger">
+                    <div class="overlay-gradient"></div>
+
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/JAAN8284.jpg" alt="Almana Hospital Building">
+
+                    <div class="play-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.3"/>
+                            <path d="M40 30L25 38.6603V21.3397L40 30Z" fill="white"/>
+                        </svg>
+                    </div>
+                </a>
+                
+                <div class="floating-badge">
+                    <span class="badge-label">Serving the community since</span>
+                    <span class="badge-year">1949</span>
+                </div>
+            </div>
+        </div>
     </div>
     
-    <div class="image-cols">
-      <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/s_JAAN8284.jpg" alt="">
-    </div>
-  </div>
 </section>
-
 
 <!-- Statistics -->
-<section class="statistics-start">
-  <div class="container">
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-header">
+            <div class="lead-text">
+                <p>Establishing itself as the center for healthcare excellence in the Kingdom, Almana presently employs more than <strong>6,500+</strong> highly qualified professionals including <strong>800+</strong> specialized doctors and has extended its services to operating and managing healthcare contracts in other regions of Saudi Arabia.</p>
+            </div>
+        </div>
 
-    <div class="main-icon">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="icon-wrapper">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/nurse.svg" alt="Professionals">
+                </div>
+                <div class="stat-info">
+                    <h2 class="counter" data-target="6500">6,500+</h2>
+                    <p>Qualified Professionals</p>
+                </div>
+            </div>
 
-      <div class="icon-hospital">
-        <div class="counter-icon">
-          <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/workforce_1.svg" alt="Medical Facilities">
-        </div>
-        <div class="counter-text">
-          <h2>1200</h2>
-          <p>Qualified <br> Workforce</p>
-        </div>
-      </div>
+            <div class="stat-card">
+                <div class="icon-wrapper">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                </div>
+                <div class="stat-info">
+                    <h2 class="counter" data-target="800">800+</h2>
+                    <p>Specialized Doctors</p>
+                </div>
+            </div>
 
-      <div class="icon-hospital">
-        <div class="counter-icon">
-          <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/doctors_2.svg" alt="Specialized Doctors">
-        </div>
-        <div class="counter-text">
-          <h2>800</h2>
-          <p>Specialized Doctors</p>
-        </div>
-      </div>
+            <div class="stat-card">
+                <div class="icon-wrapper">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                </div>
+                <div class="stat-info">
+                    <h2 class="counter" data-target="800">800+</h2>
+                    <p>Specialized Doctors</p>
+                </div>
+            </div>
 
-      <div class="icon-hospital">
-        <div class="counter-icon">
-          <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities">
+            <div class="stat-card">
+                <div class="icon-wrapper">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                </div>
+                <div class="stat-info">
+                    <h2 class="counter" data-target="800">800+</h2>
+                    <p>Specialized Doctors</p>
+                </div>
+            </div>
         </div>
-        <div class="counter-text">
-          <h2>9</h2>
-          <p>Medical Facilities</p>
-        </div>
-      </div>
-
-      <div class="icon-hospital">
-        <div class="counter-icon">
-          <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/bed.svg" alt="Total beds">
-        </div>
-        <div class="counter-text">
-          <h2>1300</h2>
-          <p>Total Beds</p>
-        </div>
-      </div>
-
-    </div><!-- /.main-icon -->
-
-    <div class="text-show">
-      <h2>AGH At a Glance</h2>
-      <p>We provide specialized units in various medical specialties</p>
     </div>
-
-  </div><!-- /.container -->
 </section>
-
-
-
 
 
 
