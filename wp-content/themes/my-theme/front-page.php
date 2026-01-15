@@ -157,7 +157,7 @@
             
             <div class="description">
                 <p class="lead-text">
-                    Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Almana believes in offering compassionate care, inspired by family values which has kept patients happier and healthier for over 75 years – this is a deeply ingrained part of our DNA. What’s more, our rich legacy of delivering person-centric, specialized, integrated, and comprehensive care, makes Almana a trusted institution and drives our journey to meet the growing needs of today and generations to come.
+                    Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Jubha believes in offering compassionate care, inspired by family values which has kept patients happier and healthier for over 75 years – this is a deeply ingrained part of our DNA. What’s more, our rich legacy of delivering person-centric, specialized, integrated, and comprehensive care, makes Almana a trusted institution and drives our journey to meet the growing needs of today and generations to come.
                 </p>
             </div>
         </div>
@@ -199,8 +199,8 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="icon-wrapper">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/nurse.svg" alt="Professionals">
-                </div>
+                  <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/workforce_1.svg" alt="Qualified Workforce ">
+                    </div>
                 <div class="stat-info">
                     <h2 class="counter" data-target="6500">6,500+</h2>
                     <p>Qualified Professionals</p>
@@ -212,28 +212,28 @@
                     <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
                 </div>
                 <div class="stat-info">
-                    <h2 class="counter" data-target="800">800+</h2>
+                    <h2 class="counter" data-target="800">800</h2>
                     <p>Specialized Doctors</p>
                 </div>
             </div>
 
             <div class="stat-card">
                 <div class="icon-wrapper">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities ">
                 </div>
                 <div class="stat-info">
-                    <h2 class="counter" data-target="800">800+</h2>
-                    <p>Specialized Doctors</p>
+                    <h2 class="counter" data-target="800">10</h2>
+                    <p>Medical Facilities</p>
                 </div>
             </div>
 
             <div class="stat-card">
                 <div class="icon-wrapper">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/bed.svg" alt="Total beds">
                 </div>
                 <div class="stat-info">
-                    <h2 class="counter" data-target="800">800+</h2>
-                    <p>Specialized Doctors</p>
+                    <h2 class="counter" data-target="1 300">1300+</h2>
+                    <p>Total bens</p>
                 </div>
             </div>
         </div>
