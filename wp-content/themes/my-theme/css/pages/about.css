@@ -312,7 +312,7 @@
 /* stats-section */
 
 .stats-section {
-    padding: 30px 20px;
+    padding: 60px 20px 80px 20px;
     background-color: var(--bg-sec);
 }
 
@@ -345,7 +345,7 @@
 }
 
 .stat-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 61, 77, 0.1);
 }
 
@@ -390,7 +390,7 @@
 
 
 .visionary-section {
-    padding: 60px 20px;
+    padding: 70px 20px;
 }
 
 .container {
@@ -471,9 +471,219 @@
     margin-bottom: 20px;
     line-height: 1.8;
     color: #444;
+    font-size: 18px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.vision-mission-section {
+    background-color: var(--bg-prim);
+    padding: 80px 0px;
+    font-family: var(--body-font);
+    color: var(--prim-color);
+}
+
+.vision-mission-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.vm-card {
+    background: var(--sec-color);
+    border-radius: 24px;
+    padding: 50px;
+    box-shadow: 0 10px 40px rgba(0, 61, 77, 0.05);
+    border: 1px solid rgba(0, 164, 163, 0.1);
+    transition: all 0.4s ease;
+}
+
+.vm-card:hover {
+    border-color: var(--btn-prim);
+    transform: translateY(-5px);
+}
+
+.vision-card {
+    background-color: var(--highlight-hover);
+    color: var(--sec-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.vm-tag {
+    background: var(--btn-prim);
+    color: var(--sec-color);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: var(--head-font);
+    width: fit-content;
+    margin-bottom: 24px;
+}
+
+.vision-quote {
+    font-family: var(--head-font);
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mission-card {
+    background-color: var(--bg-sec);
+}
+
+.vm-subtitle {
+    display: block;
+    color: var(--btn-prim);
+    font-family: var(--head-font);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.vm-title {
+    font-family: var(--head-font);
+    font-size: var(--title-font);
+    margin: 0 0 24px 0;
+    color: var(--nav-bg);
+    line-height: 1.1;
+}
+
+.mission-intro {
+    font-weight: 600;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.mission-list {
+    list-style: none;
+    padding: 0;
+}
+
+.mission-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.mission-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--btn-prim);
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+.values-section {
+    background-color: var(--bg-prim);
+    padding: 20px 0px 80px 0px;
+    font-family: var(--body-font);
+}
+
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title span {
+    color: var(--btn-prim);
+    font-family: var(--head-font);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.section-title h2 {
+    font-family: var(--head-font);
+    font-size: var(--title-font);
+    color: var(--nav-bg);
+    margin-top: 5px;
+}
+
+.values-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.value-item {
+    display: flex;
+    align-items: flex-start;
+    background: var(--sec-color);
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 6px solid var(--btn-prim);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.value-item:hover {
+    transform: translateX(10px);
+    background-color: var(--bg-sec);
+    box-shadow: 0 10px 25px rgba(0, 61, 77, 0.1);
+}
+
+.value-icon {
+    min-width: 70px;
+    height: 70px;
+    background: var(--bg-sec);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.value-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Content Styling */
+.value-content h4 {
+    font-family: var(--head-font);
+    font-size: 22px;
+    color: var(--nav-bg);
+    margin: 0 0 10px 0;
+}
+
+.value-content p {
+    color: var(--prim-color);
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.8;
+}
 
 
 @media (max-width: 768px) {

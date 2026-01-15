@@ -236,3 +236,5 @@
 
 
 <script src="/scripts/scroller.js"></script>
+
+<?php get_footer();?>
