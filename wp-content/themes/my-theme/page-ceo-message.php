@@ -13,7 +13,7 @@
     <h1 class="">CEO Message</h1>
 </div>
 
-<section class="visionary-section">
+<section class="vision-mission-section">
     <div class="container">
         <div class="visionary-wrapper">   
             <div class="visionary-image-area">
