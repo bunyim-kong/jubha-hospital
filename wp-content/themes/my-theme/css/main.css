@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: var(--maxw);
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .header-page {
@@ -52,21 +52,23 @@ body {
 }
 
 
-.highligh_text{
+.title_head {
+    font-size: 32px;
+    font-weight: bold;
     font-family: var(--head-font);
-    color: white;
-    margin: 0%; 
+    color: var(--nav-bg); 
 }
-
-
-
-
-
 
 .highligh_tittle{
     font-family: var(--head-font);
-    color: white;
+    color: var(--nav-bg);
     margin: 0%; 
+}
+
+.text_des {
+    font-size: 18px;
+    color: var(--prim-color);
+    line-height: 1.6;
 }
 
 .head_des {

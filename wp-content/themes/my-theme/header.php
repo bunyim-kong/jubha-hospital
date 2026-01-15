@@ -61,16 +61,18 @@
       </div>
 
       <a href="#">Patient Information</a>
-      <a href="">Contact</a>
 
       <div class="dropdown">
         <p>About us <i class="fas fa-caret-down"></i></p>
         <div class="dropdown-menu">
-          <a href="#">Page 1</a>
-          <a href="#">Page 2</a>
+          <a href="<?php echo home_url('overview'); ?>">Overview</a>
+          <a href="#">Our Culture</a>
+          <a href="">CEO Message</a>
+          <a href="">PlaneTree</a>
         </div>
       </div>
 
+      <a href="">Contact</a>
     </nav>
 
     <div class="header-button">
