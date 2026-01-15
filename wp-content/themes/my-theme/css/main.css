@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: var(--maxw);
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .header-page {
@@ -58,11 +58,6 @@ body {
     font-family: var(--head-font);
     color: var(--nav-bg); 
 }
-
-
-
-
-
 
 .highligh_tittle{
     font-family: var(--head-font);
