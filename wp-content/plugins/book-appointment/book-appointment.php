@@ -1,11 +1,16 @@
 <?php
 /**
  * Plugin Name: Book Appointment
+<<<<<<< HEAD
  * Description: You can book an appointment through this plugin.
+=======
+ * Description: Appointment booking system
+>>>>>>> 2a19547 (appoinment : create patient docter and appoinment)
  * Version: 1.0.0
- * Author: Bunyim
+ * Author: neath
  */
 
+<<<<<<< HEAD
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -39,9 +44,17 @@ function book_create_appointments_table() {
 # Admin Menu
 --------------------------------------------------------------*/
 add_action('admin_menu', 'book_add_menu');
+=======
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+add_action( 'admin_menu', 'book_add_menu' );
+>>>>>>> 2a19547 (appoinment : create patient docter and appoinment)
 
 function book_add_menu() {
 
+    // Main menu
     add_menu_page(
         'Booking Appointment',
         'Appointment',
@@ -49,6 +62,7 @@ function book_add_menu() {
         'book-appointment',
         'book_appointment_page',
         'dashicons-calendar',
+<<<<<<< HEAD
         25
     );
 
@@ -74,11 +88,49 @@ function book_add_menu() {
 /*--------------------------------------------------------------
 # Pages
 --------------------------------------------------------------*/
-function book_appointment_page() {
-    echo '<h1>Book Appointment</h1>';
-    echo '<p>This is where your booking system will go.</p>';
+=======
+        6
+    );
+
+    // Patient submenu
+    add_submenu_page(
+        'book-appointment',
+        'Patients',
+        'Patients',
+        'manage_options',
+        'book-patients',
+        'book_patients_page'
+    );
+
+    // Doctor submenu
+    add_submenu_page(
+        'book-appointment',
+        'Doctors',
+        'Doctors',
+        'manage_options',
+        'book-doctors',
+        'book_doctors_page'
+    );
+
+    // Appointment submenu
+    add_submenu_page(
+        'book-appointment',
+        'Appointments',
+        'Appointments',
+        'manage_options',
+        'book-appointments',
+        'book_appointments_page'
+    );
 }
 
+/* ---------- Page Callbacks ---------- */
+
+>>>>>>> 2a19547 (appoinment : create patient docter and appoinment)
+function book_appointment_page() {
+    echo '<div class="wrap"><h1>Dashboard</h1><p>Appointment overview.</p></div>';
+}
+
+<<<<<<< HEAD
 function book_all_appointments_page() {
 
     if (isset($_GET['success'])) {
@@ -152,3 +204,40 @@ function book_save_appointment() {
     wp_redirect(admin_url('admin.php?page=book-all-appointments&success=1'));
     exit;
 }
+=======
+function book_patients_page() {
+    echo '<div class="patien-form">
+    <section class="patien-form" style="display:block">
+  <form method="post">
+    <div class="input_forn" style="margin-top: 40px;display: flex;align-items: center; "> 
+    <label style="font-size:14px;">Phone</label>
+    <input type="text" name="patient_phone" required>
+    <label style="margin-left:20px">Doctor</label>
+    <select name="doctor" required style="font-size:14px;">
+      <option value="">Select Doctor</option>
+      <option>Doctor MONY</option>
+      <option>Doctor</option>
+    </select>
+    <label style="margin-left:20px;">Date</label>
+    <input type="date" name="appointment_date" required>
+
+    <label style="margin-left:20px;">Time</label>
+    <input type="time" name="appointment_time" required>
+
+    <button type="submit" style="margin-left:20px;">Book Appointment</button>
+     </div>
+     </div>
+  </form>
+</section>
+    </div>';
+}
+function book_doctors_page() {
+    echo '<div class="wrap"><h1>Doctors</h1><p>Manage doctors here.</p></div>';
+}
+
+function book_appointments_page() {
+    echo '<div class="wrap"><h1>Appointments</h1><p>Manage appointments here.</p></div>';
+}
+
+
+>>>>>>> 2a19547 (appoinment : create patient docter and appoinment)

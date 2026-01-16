@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>patien-Form</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <section class="patien-form">
+  <form method="post">
+    
+    <label>Full Name</label>
+    <input type="text" name="patient_name" required>
+
+    <label>Phone</label>
+    <input type="text" name="patient_phone" required>
+
+    <label>Doctor</label>
+    <select name="doctor" required>
+      <option value="">Select Doctor</option>
+      <option>Doctor A</option>
+      <option>Doctor B</option>
+    </select>
+
+    <label>Date</label>
+    <input type="date" name="appointment_date" required>
+
+    <label>Time</label>
+    <input type="time" name="appointment_time" required>
+
+    <button type="submit">Book Appointment</button>
+
+  </form>
+</section>
+
+
+</body>
+</html>
