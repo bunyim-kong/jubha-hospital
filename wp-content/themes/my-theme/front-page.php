@@ -391,6 +391,78 @@
     </div>
 </section>
 
+
+<!-- media update -->
+<section class="media-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="subtitle">Media Update</h6>
+                <h2 class="title">Latest Happenings</h2>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper news-grid">
+                    <div class="swiper-slide news-card">
+                         <a href="successful-scoliosis-surgery-for-14-year-old-girl">
+                        <div class="img-wrapper">
+                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/news/s_Screenshot_2025_04_08_213423.png" alt="Scoliosis Surgery">
+                            <span class="category-tag">News</span>
+                        </div>
+                        <div class="content">
+                            <h5>Successful Scoliosis Surgery for 14-Year-Old Girl</h5>
+                            <span class="read-more">Read Story</span>
+                        </div>
+                    </a>
+                    </div>
+
+                    
+
+
+            <!-- <div class="news-grid">
+                <div class="news-card">
+                    <a href="successful-scoliosis-surgery-for-14-year-old-girl">
+                        <div class="img-wrapper">
+                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/news/s_Screenshot_2025_04_08_213423.png" alt="Scoliosis Surgery">
+                            <span class="category-tag">News</span>
+                        </div>
+                        <div class="content">
+                            <h5>Successful Scoliosis Surgery for 14-Year-Old Girl</h5>
+                            <span class="read-more">Read Story</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="news-card">
+                    <a href="physiotherapy-types-and-benefits">
+                        <div class="img-wrapper">
+                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_DSC08628.jpg" alt="Physiotherapy">
+                            <div class="date-badge">26 Sep, 2023</div>
+                        </div>
+                        <div class="content">
+                            <h6 class="specialty">Specialized Care</h6>
+                            <h5>Physiotherapy: Enhancing Quality of Life</h5>
+                            <span class="read-more">Read Story</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-card">
+                    <a href="physiotherapy-types-and-benefits">
+                        <div class="img-wrapper">
+                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_DSC08628.jpg" alt="Physiotherapy">
+                            <div class="date-badge">26 Sep, 2023</div>
+                        </div>
+                        <div class="content">
+                            <h6 class="specialty">Specialized Care</h6>
+                            <h5>Physiotherapy: Enhancing Quality of Life</h5>
+                            <span class="read-more">Read Story</span>
+                        </div>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+
 <section class="branch-section">
   <div class="container">
     <div class="department-header">
