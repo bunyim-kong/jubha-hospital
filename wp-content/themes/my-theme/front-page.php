@@ -391,76 +391,99 @@
     </div>
 </section>
 
-
-<!-- media update -->
-<section class="media-section">
-        <div class="container">
-            <div class="section-header">
-                <h6 class="subtitle">Media Update</h6>
-                <h2 class="title">Latest Happenings</h2>
+<section class="production-solution">
+    <div class="container">
+        <div class="department-header">
+            <div class="header-left">
+                <span class="sub-headline">Media Update</span>
+                <h2 class="main-title">Latest Happenings</h2>
             </div>
+        </div>
 
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper news-grid">
-                    <div class="swiper-slide news-card">
-                         <a href="successful-scoliosis-surgery-for-14-year-old-girl">
-                        <div class="img-wrapper">
-                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/news/s_Screenshot_2025_04_08_213423.png" alt="Scoliosis Surgery">
-                            <span class="category-tag">News</span>
+        <div class="dept-swiper-container">
+                <div class="dept-wrapper">
+                    
+                    <div class="dept-slide">
+                        <div class="news-card">
+                            <a href="successful-scoliosis-surgery-for-14-year-old-girl">
+                                <div class="img-wrapper">
+                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/news/s_Screenshot_2025_04_08_213423.png" alt="Successful Scoliosis Surgery">
+                                    <span class="category-tag">News</span>
+                                </div>
+                                <div class="content">
+                                    <h5>Successful Scoliosis Surgery for 14-Year-Old Girl</h5>
+                                    <span class="read-more">Read Story</span>
+                                </div>
+                            </a>
                         </div>
-                        <div class="content">
-                            <h5>Successful Scoliosis Surgery for 14-Year-Old Girl</h5>
-                            <span class="read-more">Read Story</span>
-                        </div>
-                    </a>
                     </div>
 
-                    
+                    <div class="dept-slide">
+                        <div class="news-card">
+                            <a href="physiotherapy-types-and-benefits-in-enhancing-quality-of-life">
+                                <div class="img-wrapper">
+                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_DSC08628.jpg" alt="Physiotherapy">
+                                    <div class="date-badge">26 Sep, 2023</div>
+                                </div>
+                                <div class="content">
+                                    <h5>Physiotherapy: Types and Benefits in Enhancing Quality of Life</h5>
+                                    <span class="read-more">Read Story</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
+                    <div class="dept-slide">
+                        <div class="news-card">
+                            <a href="home-healthcare-service">
+                                <div class="img-wrapper">
+                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_Green_and_Black_Dark_Professional_Static_Quote_General_News_Twitter_Post.png" alt="Home Healthcare Service">
+                                    <div class="date-badge">26 Sep, 2023</div>
+                                </div>
+                                <div class="content">
+                                    <h5>Home Healthcare Service of our hospital</h5>
+                                    <span class="read-more">Read Story</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
-            <!-- <div class="news-grid">
-                <div class="news-card">
-                    <a href="successful-scoliosis-surgery-for-14-year-old-girl">
-                        <div class="img-wrapper">
-                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/news/s_Screenshot_2025_04_08_213423.png" alt="Scoliosis Surgery">
-                            <span class="category-tag">News</span>
+                    <div class="dept-slide">
+                        <div class="news-card">
+                            <a href="signs-of-a-weak-immune-system">
+                                <div class="img-wrapper">
+                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-encyclopedia/s_website_picture_02.jpg" alt="Weak Immune System">
+                                    <span class="category-tag">Medical Encyclopedia</span>
+                                </div>
+                                <div class="content">
+                                    <h5>Signs of a Weak Immune System: How Your Body Sends Distress Signals</h5>
+                                    <span class="read-more">Read Story</span>
+                                </div>
+                            </a>
                         </div>
-                        <div class="content">
-                            <h5>Successful Scoliosis Surgery for 14-Year-Old Girl</h5>
-                            <span class="read-more">Read Story</span>
-                        </div>
-                    </a>
-                </div>
+                    </div>
 
-                <div class="news-card">
-                    <a href="physiotherapy-types-and-benefits">
-                        <div class="img-wrapper">
-                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_DSC08628.jpg" alt="Physiotherapy">
-                            <div class="date-badge">26 Sep, 2023</div>
+                    <div class="dept-slide">
+                        <div class="news-card">
+                            <a href="leukemia-symptoms-causes-and-treatment">
+                                <div class="img-wrapper">
+                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-encyclopedia/s__3_03.jpg" alt="Leukemia Symptoms">
+                                    <span class="category-tag">Medical Encyclopedia</span>
+                                </div>
+                                <div class="content">
+                                    <h5>Leukemia Symptoms, Causes and Treatment</h5>
+                                    <span class="read-more">Read Story</span>
+                                </div>
+                            </a>
                         </div>
-                        <div class="content">
-                            <h6 class="specialty">Specialized Care</h6>
-                            <h5>Physiotherapy: Enhancing Quality of Life</h5>
-                            <span class="read-more">Read Story</span>
-                        </div>
-                    </a>
+                    </div>
+
                 </div>
-                <div class="news-card">
-                    <a href="physiotherapy-types-and-benefits">
-                        <div class="img-wrapper">
-                            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_DSC08628.jpg" alt="Physiotherapy">
-                            <div class="date-badge">26 Sep, 2023</div>
-                        </div>
-                        <div class="content">
-                            <h6 class="specialty">Specialized Care</h6>
-                            <h5>Physiotherapy: Enhancing Quality of Life</h5>
-                            <span class="read-more">Read Story</span>
-                        </div>
-                    </a>
-                </div>
-            </div> -->
-        </div>
-    </section>
+          </div>
+        
+    </div>
+</section>
+
 
 
 <section class="branch-section">
