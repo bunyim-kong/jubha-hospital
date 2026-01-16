@@ -1,0 +1,197 @@
+.contact-section {
+    padding: 40px 0px 10px 0px;
+}
+
+.booking-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.doctor-section {
+    flex: 1;
+    min-width: 300px;
+    background-color: var(--nav-bg);
+    padding: 10px 40px 40px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doctor-section h5 {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: var(--sec-color);
+    font-family: var(--head-font);
+}
+
+.contact-number-big {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--sec-color);
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+}
+
+.call {
+    color: var(--sec-color);
+}
+
+.seperator {
+    margin: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+.seperator span {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 15px;
+    font-size: 14px;
+    background-color: var(--nav-bg);
+    color: #d3cccc;
+}
+
+
+.app-section {
+    flex: 2;
+    min-width: 300px;
+    background-color: var(--bg-sec);
+    background-image: url('https://ds4kyztv1rtw.cloudfront.net/uploads/mobile-popa/pop_up_bgs.png');
+    background-size: cover;
+    filter: brightness(90%);
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.download-content h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.apps-qr-wrapper {
+    display: flex;
+    gap: 15px;
+    z-index: 1111;
+}
+
+.apps-qr-wrapper img {
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    filter: brightness(100%);
+}
+
+.mobile-mockup img {
+    max-height: 300px;
+    filter: brightness(100%);
+    z-index: 1111;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-form-section {
+    max-width: var(--maxw);
+    margin: 60px auto;
+    padding: 40px 0px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.form-intro-text {
+    font-family: var(--head-font);
+    font-size: 18px;
+    color: var(--nav-bg);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form-area {
+    padding: 0px 40px;
+}
+
+.contact-form-area .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.col-full {
+    grid-column: span 2;
+}
+
+.cnt-input, .cnt-text-area, .form-select {
+    width: 100%;
+    padding: 14px 18px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: var(--bg-sec);
+    font-family: var(--body-font);
+    font-size: 15px;
+    color: var(--prim-color);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.cnt-input:focus, .cnt-text-area:focus {
+    outline: none;
+    border-color: var(--btn-prim);
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 164, 163, 0.2);
+}
+
+.cnt-text-area {
+    height: 150px;
+    resize: vertical;
+}
+
+.form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23003D4D' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
+
+.submit-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.captcha-txt {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-form-area .row {
+        grid-template-columns: 1fr;
+    }
+    .col-full {
+        grid-column: span 1;
+    }
+}

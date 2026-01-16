@@ -72,7 +72,7 @@
         </div>
       </div>
 
-      <a href="">Contact</a>
+      <a href="<?php echo home_url('contact'); ?>">Contact</a>
     </nav>
 
     <div class="header-button">
