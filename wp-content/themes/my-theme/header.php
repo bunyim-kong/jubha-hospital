@@ -51,12 +51,12 @@
         <div class="dropdown-menu">
           <a href="<?php echo home_url('hospital-and-clinic'); ?>">All Location</a>
           <a href="<?php echo home_url('amc-rakkah'); ?>">AMC Rakkah</a>
-          <a href="">AGH Khobar</a>
-          <a href="">AGH Dammam</a>
-          <a href="">AGH Aziziah Dammam</a>
-          <a href="#">AGH Jubail</a>
-          <a href="#">AGH Jubail</a>
-          <a href="">AGH Hofuf</a>
+          <a href="<?php echo home_url('agh-khobar'); ?>">AGH Khobar</a>
+          <a href="<?php echo home_url('agh-dammam'); ?>">AGH Dammam</a>
+          <a href="<?php echo home_url('agh-aziziah-dammam'); ?>">AGH Aziziah Dammam</a>
+          <a href="<?php echo home_url('agh-jubail'); ?>">AGH Jubail</a>
+          <a href="<?php echo home_url('agh-jubail2'); ?>">AGH Jubail2</a>
+          <a href="<?php echo home_url('agh-hofuf'); ?>">AGH Hofuf</a>
         </div>
       </div>
 
