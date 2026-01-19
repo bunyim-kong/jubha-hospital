@@ -7,7 +7,7 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="">Home</a> / Hospital and Clinic</span>
+    <span><a href="<?php echo home_url('home');?>">Home</a> / Hospital and Clinic</span>
     <h1 class="">All Locations</h1>
 </div>
 
@@ -35,7 +35,7 @@
             <div class="location-info">
                 <h1>AGH Khobar</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-khobar'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -46,7 +46,7 @@
             <div class="location-info">
                 <h1>AGH Dammam</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-dammam'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -57,7 +57,7 @@
             <div class="location-info">
                 <h1>Almana Oncology Center – Dammam</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-aziziah-dammam'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -68,7 +68,7 @@
             <div class="location-info">
                 <h1>AGH Aziziah Dammam</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-aziziah-dammam'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -79,7 +79,7 @@
             <div class="location-info">
                 <h1>AGH Jubail</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-jubail'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -90,7 +90,7 @@
             <div class="location-info">
                 <h1>AGH Jubail</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-jubail2'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>
@@ -101,7 +101,7 @@
             <div class="location-info">
                 <h1>AGH Hofuf</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-hofuf'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>

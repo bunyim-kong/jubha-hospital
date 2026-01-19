@@ -7,8 +7,8 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
-    <h1 class="">AMC Dammam</h1>
+    <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AGH Dammam</span>
+    <h1 class="">AGH Dammam</h1>
 </div>
 
 <section class="hospital-section container">
@@ -18,7 +18,7 @@
             <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
 
             <div class="hero-overlay">
-                <h2>AMC Dammam</h2>
+                <h2>AGH Dammam</h2>
 
                 <a class="appointment-btn" href="#">Book an Appointment</a>
             </div>

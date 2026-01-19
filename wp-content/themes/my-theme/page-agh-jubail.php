@@ -7,7 +7,7 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
+    <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AGH Jubail</span>
     <h1 class="">AGH Jubail </h1>
 </div>
 
