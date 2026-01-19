@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
+<link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 
@@ -8,7 +8,7 @@
 
 <div class="header-page">
     <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
-    <h1 class="">AMC Rakkah</h1>
+    <h1 class="">AMC khobar</h1>
 </div>
 
 <section class="hospital-section container">
@@ -18,7 +18,7 @@
             <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
 
             <div class="hero-overlay">
-                <h2>AMC Rakkah</h2>
+                <h2>AMC khobar</h2>
 
                 <a class="appointment-btn" href="#">Book an Appointment</a>
             </div>
@@ -40,14 +40,14 @@
         </div>
 
         <div class="counter">
-            <i class="fa-solid fa-hospital"></i>
-            <h3>5</h3>
-            <p>Floors</p>
+            <i class="fa-solid fa-bed"></i>
+            <h3>250</h3>
+            <p>Beds</p>
         </div>
 
         <div class="counter right-corner">
-            <i class="fa-solid fa-stethoscope"></i>
-            <h3>75</h3>
+            <i class="fa-solid fa-house-chimney-medical"></i>
+            <h3>74</h3>
             <p>Clinics</p>
         </div>
     </section>
@@ -74,18 +74,18 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Jubha Rakah Clinics</strong> <BR></BR>
-                    Jubha Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
+                    <strong>Welcome to Jubha General Hospital, Khobar</strong> <BR></BR>
+                    We are delighted to introduce you to our exceptional medical complex, dedicated to providing comprehensive healthcare services.. <BR></BR>
 
-                    With over 75 clinics covering various medical specialties, Jubha Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    Our facility comprises two outstanding in-patient buildings, a five-floor out-patient building, a cutting-edge dental and maxillo-facial center, a medical tower equipped with the latest technology, a building dedicated to Women and Children’s health, and an LTC unit.<BR></BR>
 
-                    In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
+                    At Jubha General Hospital Khobar, we are committed to catering to diverse healthcare needs. Our team of highly skilled healthcare professionals specializes in fields such as cardiothoracic surgery, orthopedic surgery, pediatric surgery, dentistry, maxillo-facial surgery, and trauma care. With their expertise and dedication, we ensure exceptional care and strive for positive patient outcomes.<BR></BR>
 
-                    With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
+                    With a capacity of 250 inpatient beds, we are fully equipped to accommodate a significant number of patients who require specialized care. Additionally, our outpatient building features 74 clinics, providing convenient access to a wide range of medical consultations and treatments. <BR></BR>
 
-                    At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
+                    At Jubha General Hospital, Khobar, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
 
-                    We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
+                    We look forward to welcoming you to Almana Rakah Clinics and providing you with the highest quality of care. <br>
                 </p>
             </div>
 
@@ -94,8 +94,8 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director/Dr._Mohammed_Nahhas.png" alt="Dr. Mohammed Nahhas">
-                    </div>
+                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-189712/21783914_9b31_4524_a135_7541451f6c28.jpeg" alt="Dr. Baher Aldamanhori ">
+                                            </div>
 
                     <div class="director-content">
                         <h2>Dr. Mohammed Nahhas</h2>
@@ -137,7 +137,7 @@
                         <span>Out Patient Clinics “OPD”</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>1st Shift </span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -147,7 +147,7 @@
                         <span>Pharmacies</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>1st Shift</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -157,7 +157,7 @@
                         <span>Head Office</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span> Monday - Sunday </span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 5:00 PM</span>
                         </div>
@@ -239,5 +239,3 @@
 
 </section>
 
-
-<?php get_footer();?>

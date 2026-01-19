@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
+<link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 
@@ -8,7 +8,7 @@
 
 <div class="header-page">
     <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
-    <h1 class="">AMC Rakkah</h1>
+    <h1 class="">AGH Aziziah Dammam </h1>
 </div>
 
 <section class="hospital-section container">
@@ -18,7 +18,7 @@
             <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
 
             <div class="hero-overlay">
-                <h2>AMC Rakkah</h2>
+                <h2>AGH Aziziah Dammam </h2>
 
                 <a class="appointment-btn" href="#">Book an Appointment</a>
             </div>
@@ -29,25 +29,25 @@
     <section class="counter-content">
         <div class="counter left-corner">
             <i class="fa-solid fa-users"></i>
-            <h3>532</h3>
+            <h3>900</h3>
             <p>Workforce</p>
         </div>
 
         <div class="counter">
             <i class="fa-solid fa-user-doctor"></i>
-            <h3>53</h3>
+            <h3>100</h3>
             <p>Doctors</p>
         </div>
 
         <div class="counter">
-            <i class="fa-solid fa-hospital"></i>
-            <h3>5</h3>
-            <p>Floors</p>
+            <i class="fa-solid fa-bed"></i>
+            <h3>50</h3>
+            <p>Beds</p>
         </div>
 
         <div class="counter right-corner">
-            <i class="fa-solid fa-stethoscope"></i>
-            <h3>75</h3>
+            <i class="fa-solid fa-house-chimney-medical"></i>
+            <h3>74</h3>
             <p>Clinics</p>
         </div>
     </section>
@@ -74,18 +74,19 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Jubha Rakah Clinics</strong> <BR></BR>
-                    Jubha Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
+                    <strong>The brand-new hospital facility located in Aziziah is now open for patients. Currently equipped with 31 clinics and 50 beds, the hospital will grow to 52 clinics and 185 beds by 2024.</strong> <BR></BR>
+                   Located in the northeast of Dammam, the new hospital is equipped with a comprehensive 24/7 emergency room (ER) that is easily accessible for patients, visitors, and ambulances covering all services.. <BR></BR>
 
-                    With over 75 clinics covering various medical specialties, Jubha Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    The hospital has 20 outpatient clinics open between the hours of 8.00 am to 8.00 pm - These outpatient clinics include Internal Medicine, General Surgery, Pediatric, OB-GYN, Orthopedic, Cardiology, Urology, and Pre-Anesthesia.<BR></BR>
 
-                    In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
+                    The new Laboratory and Pathology Department offers a comprehensive and wide variety of tests and services with qualified staff available 24/7 to assist physicians in diagnosing, establishing a prognosis, and detecting disease through screening, managing, and monitoring patients. The department provides routine laboratory services, STAT laboratory services, and point-of-care testing (POCT).<BR></BR>
 
-                    With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
+                    Radiology is a crucial medical specialty at Aziziah Dammam Hospital, utilizing advanced imaging technology to diagnose internal diseases accurately.<BR></BR>
 
-                    At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
+                    Our team of highly skilled Radiologists, Technologists, and nursing/healthcare staff work collaboratively to provide a comprehensive range of services, both routinely and in emergencies. These include general radiology, CT scans, ultrasound, and MRI, ensuring timely and accurate diagnoses to support optimal patient care. <BR></BR>
 
-                    We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
+                    Aziziah Dammam Hospital will also feature state-of-the-art medical imaging and radiology equipment. In addition, the hospital will house the latest technologically advanced robotic equipment, including a fully automated robotic pharmacy that dispenses medication, effectively minimizing human errors and reducing wait times. This integration of cutting-edge technology further reinforces our commitment to providing advanced and efficient healthcare services to our patients. <br>
+                    Patients visiting Aziziah Dammam Hospital can expect the highest standard of care reflected across every hospital with Almana Group of Hospitals and the team of 960 healthcare professionals are dedicated to ensuring that you receive personalized care and attention throughout your stay.
                 </p>
             </div>
 
@@ -94,36 +95,28 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director/Dr._Mohammed_Nahhas.png" alt="Dr. Mohammed Nahhas">
-                    </div>
+                       <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-700281/Dr._Saleh_Nasser_Alahmed.png" alt="Dr. Saleh Nasser Alahmed  ">
+                                            </div>
 
                     <div class="director-content">
-                        <h2>Dr. Mohammed Nahhas</h2>
+                        <h2>Dr. Saleh Nasser Alahmed </h2>
 
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Jubha Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
+                           Dr. Saleh Alahmed is a highly experienced medical professional with an impressive background in internal medicine, adult endocrinology, and clinical thyroidology. Currently serving as the Hospital and Medical Director at Almana General Hospital in Aziziyah, Saudi Arabia. Dr. Saleh Alahmed has spent over 27 years dedicated to the medical field.
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas began his successful medical career after graduating from King Abdulaziz University. He has held various prestigious positions, including Chairman of the Orthopedic Department and Head of the Sarcoma Unit at King Fahad Specialist Hospital Dammam.
+                            He began his academic journey by earning a Bachelor of Medicine and Surgery from King Saud University in Riyadh, Saudi Arabia, before pursuing advanced training in various areas of medicine. Dr. Saleh Alahmed has obtained a Clinical Thyroidology Fellowship in Thyroid Disorders and Tumors from the esteemed University of Toronto, as well as a Saudi Specialty Certificate in Endocrinology and Metabolism, Adult Endocrinology, and Internal Medicine from the Saudi Commission of Health Specialties in Saudi Arabia. These academic achievements are a testament to Dr. Saleh Alahmed's commitment to providing the highest level of care to his patients, and his expertise has made him a trusted authority in the medical community.
                         </p>
 
                         <p>
-                            After graduating from King Abdulaziz University College of Medicine, he traveled to Canada to continue his education in Orthopedic Surgery at McGill University in Montreal. He later completed fellowships in Musculoskeletal Oncology at the University of Montreal and Sports Medicine at the University of Toronto.
+                           Throughout his illustrious medical career, Dr.Saleh Alahmed has actively participated in and attended various local and international symposiums, conferences, and workshops in various capacities such as presenter, chairman, and delegate. His most recent engagement involved chairing the Thyroid Roadmap Scientific Event - Clinical Cases Solving in Dammam, KSA, and taking part in the Diabetes and Diabetic Foot Challenges and Updates Conference in Hofuf, KSA.
                         </p>
 
                         <p>
-                            Driven to expand his knowledge beyond clinical practice, Dr. Nahhas earned a Master of Science in Health Administration from the University of Alabama and completed a Healthcare Management Program at Harvard Medical School.
-                        </p>
-
-                        <p>
-                            A respected member of numerous professional organizations, he actively participates in the American Academy of Orthopedic Surgeons (AAOS), the Canadian Orthopedic Association (COA), and serves on the Credentialing and Privileges Committee at King Fahad Specialist Hospital.
-                        </p>
-
-                        <p>
-                            Dr. Mohammed Nahhas’s commitment to his patients, expertise in his field, and continuous pursuit of excellence make him a highly regarded figure in the medical community.
+                           Dr.Saleh Alahmed's extensive participation in these events showcases his dedication to continuous learning and professional development. With over ten professional affiliations, Dr.Saleh Alahmed is a distinguished member of several reputable medical organizations, including the American Association of Clinical Endocrinologists and the Endocrine Society, reflecting his deep commitment to the medical profession and his pursuit of excellence in patient care.
                         </p>
                     </div>
 
@@ -137,7 +130,7 @@
                         <span>Out Patient Clinics “OPD”</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>1st Shift </span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -147,7 +140,7 @@
                         <span>Pharmacies</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>1st Shift</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -157,7 +150,7 @@
                         <span>Head Office</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span> Monday - Sunday </span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 5:00 PM</span>
                         </div>
@@ -169,7 +162,6 @@
             <div class="content doctors-list">
                 <div class="doctor-wrapper">
                     <div class="doctor-card">
-                        <img src="<?php echo get_template_directory_uri() . '/asset/doctors/doctor-1.jpg'; ?>" alt="">
 
                         <div class="doctor-info">
                             <h3>Adel Suleiman Raslan</h3>
@@ -239,5 +231,6 @@
 
 </section>
 
-
 <?php get_footer();?>
+
+

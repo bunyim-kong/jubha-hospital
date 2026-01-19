@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
+<link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 
@@ -8,7 +8,7 @@
 
 <div class="header-page">
     <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
-    <h1 class="">AMC Rakkah</h1>
+    <h1 class="">AMC Dammam</h1>
 </div>
 
 <section class="hospital-section container">
@@ -18,40 +18,12 @@
             <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
 
             <div class="hero-overlay">
-                <h2>AMC Rakkah</h2>
+                <h2>AMC Dammam</h2>
 
                 <a class="appointment-btn" href="#">Book an Appointment</a>
             </div>
         </div>
     </section>
-
-    <!-- COUNTERS -->
-    <section class="counter-content">
-        <div class="counter left-corner">
-            <i class="fa-solid fa-users"></i>
-            <h3>532</h3>
-            <p>Workforce</p>
-        </div>
-
-        <div class="counter">
-            <i class="fa-solid fa-user-doctor"></i>
-            <h3>53</h3>
-            <p>Doctors</p>
-        </div>
-
-        <div class="counter">
-            <i class="fa-solid fa-hospital"></i>
-            <h3>5</h3>
-            <p>Floors</p>
-        </div>
-
-        <div class="counter right-corner">
-            <i class="fa-solid fa-stethoscope"></i>
-            <h3>75</h3>
-            <p>Clinics</p>
-        </div>
-    </section>
-
 
     <!-- TABS -->
     <section class="tabs">
@@ -74,18 +46,18 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Jubha Rakah Clinics</strong> <BR></BR>
-                    Jubha Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
+                    <strong>Welcome to jubha General Hospital, Dammam Since its establishment in the early '90s, our hospital has emerged as a leading healthcare facility in the region, dedicated to providing quality healthcare services.</strong> <BR></BR>
+                    Accredited by the prestigious Joint Commission International (JCI), we are recognized for our exceptional standards of care and are a referral center for specialized treatments. <BR></BR>
 
-                    With over 75 clinics covering various medical specialties, Jubha Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    With over 75 clinics covering various medical specialties, Almana Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
 
                     In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
 
                     With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
 
-                    At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
+                    At Almana Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
 
-                    We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
+                    We look forward to welcoming you to Almana Rakah Clinics and providing you with the highest quality of care. <br>
                 </p>
             </div>
 
@@ -94,24 +66,24 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director/Dr._Mohammed_Nahhas.png" alt="Dr. Mohammed Nahhas">
-                    </div>
+                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-461572/Dr._Talal_Aldhary.png" alt="Dr. Talal Aldhary  ">
+                                           </div>
 
                     <div class="director-content">
-                        <h2>Dr. Mohammed Nahhas</h2>
+                        <h2>Dr. Talal Aldhary </h2>
 
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Jubha Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
+                            Dr. Talal Aldahry is a highly accomplished and well-respected medical professional, currently holding the esteemed position of Hospital and Medical Director at Almana General Hospital in Dammam, Saudi Arabia.
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas began his successful medical career after graduating from King Abdulaziz University. He has held various prestigious positions, including Chairman of the Orthopedic Department and Head of the Sarcoma Unit at King Fahad Specialist Hospital Dammam.
+                            Boasting an impressive 32 years of experience in the medical field, Dr.Talal Aldahry has held several notable roles throughout his career, including serving as Assistant Director General for the Eastern Health Committee, Director of the Private Health Sector Affairs Department, and Chief Resident Physician of the Internal Medicine at Dammam Central Hospital.
                         </p>
 
                         <p>
-                            After graduating from King Abdulaziz University College of Medicine, he traveled to Canada to continue his education in Orthopedic Surgery at McGill University in Montreal. He later completed fellowships in Musculoskeletal Oncology at the University of Montreal and Sports Medicine at the University of Toronto.
+                            Dr.Talal Aldahry holds a Bachelor of Medicine and Surgery, as well as a certificate from the Saudi Specialty Program for Internal Medicine, further demonstrating his dedication and expertise in the field.
                         </p>
 
                         <p>
@@ -123,7 +95,7 @@
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas’s commitment to his patients, expertise in his field, and continuous pursuit of excellence make him a highly regarded figure in the medical community.
+                            Dr. Talal Nahhas’s commitment to his patients, expertise in his field, and continuous pursuit of excellence make him a highly regarded figure in the medical community.
                         </p>
                     </div>
 
@@ -137,7 +109,7 @@
                         <span>Out Patient Clinics “OPD”</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>1st Shift</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -147,7 +119,7 @@
                         <span>Pharmacies</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>2nd Shift</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -157,7 +129,7 @@
                         <span>Head Office</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span> Monday - Sunday </span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 5:00 PM</span>
                         </div>
@@ -239,5 +211,5 @@
 
 </section>
 
-
 <?php get_footer();?>
+
