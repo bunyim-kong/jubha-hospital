@@ -18,9 +18,6 @@ function book_add_menu() {
         'book_appointment_page',    // Callback
         'dashicons-calendar',       // Icon
         '6'
-
-
-        add
     );
 }
 
