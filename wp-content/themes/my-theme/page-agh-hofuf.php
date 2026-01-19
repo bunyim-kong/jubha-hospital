@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
+<link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 
@@ -8,50 +8,47 @@
 
 <div class="header-page">
     <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
-    <h1 class="">AMC Rakkah</h1>
+    <h1 class="">AGH Hofuf</h1>
 </div>
 
 <section class="hospital-section container">
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
-
+            <img src="https://i.pinimg.com/1200x/c8/90/ea/c890ea6091a896dec3339857e2b15774.jpg">
             <div class="hero-overlay">
-                <h2>AMC Rakkah</h2>
+                <h2>AGH Hofuf</h2>
 
                 <a class="appointment-btn" href="#">Book an Appointment</a>
             </div>
         </div>
     </section>
 
-    <!-- COUNTERS -->
-    <section class="counter-content">
-        <div class="counter left-corner">
-            <i class="fa-solid fa-users"></i>
-            <h3>532</h3>
-            <p>Workforce</p>
+     <section class="counter-content">
+         <div class="counter">
+            <i class="fa-solid fa-bed"></i>
+            <h3>150</h3>
+            <p>Beds</p>
         </div>
 
         <div class="counter">
             <i class="fa-solid fa-user-doctor"></i>
-            <h3>53</h3>
+            <h3>150+</h3>
             <p>Doctors</p>
         </div>
 
         <div class="counter">
-            <i class="fa-solid fa-hospital"></i>
-            <h3>5</h3>
-            <p>Floors</p>
+            <i class="fa-solid fa-bed"></i>
+            <h3>150</h3>
+            <p>Beds</p>
         </div>
 
-        <div class="counter right-corner">
-            <i class="fa-solid fa-stethoscope"></i>
-            <h3>75</h3>
-            <p>Clinics</p>
+        <div class="counter">
+            <i class="fa-solid fa-user-doctor"></i>
+            <h3>150</h3>
+            <p>Doctors</p>
         </div>
     </section>
-
 
     <!-- TABS -->
     <section class="tabs">
@@ -74,18 +71,18 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Jubha Rakah Clinics</strong> <BR></BR>
-                    Jubha Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
+                    <strong>Welcome to J Geneubharal Hospital Hofuf.</strong> <BR></BR>
+                    Jubha General Hospital, Hofuf is equipped with state-of-the-art facilities and staffed by a team of highly skilled and compassionate healthcare professionals.<BR></BR>
 
-                    With over 75 clinics covering various medical specialties, Jubha Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    We offer a comprehensive range of services across various specialties to meet the diverse healthcare needs of our patients. <BR></BR>
 
-                    In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
+                    We excel in a comprehensive range of specialized services including Dermatology, Obstetrics and Gynecology, Pediatrics, Orthopedics, ENT (Ear Nose Throat), Internal Medicine, General Surgery, Ophthalmology, Dental, Radiology, Laboratory, And Physiotherapy.<BR></BR>
 
-                    With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
+                    At Jubha General Hospital in Hofuf, we prioritize your health and well-being above all else. Our facility is equipped with 150 beds and staffed by 150+ teams of highly skilled medical professionals. We are dedicated to delivering exceptional healthcare services, leveraging the latest technology to ensure your utmost care and satisfaction.<BR></BR>
 
                     At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
 
-                    We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
+                    We look forward to welcoming you to Jubha General Hospital, Hofuf, and providing you with the highest standard of care. <br>
                 </p>
             </div>
 
@@ -94,28 +91,28 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director/Dr._Mohammed_Nahhas.png" alt="Dr. Mohammed Nahhas">
-                    </div>
+                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-589977/e95e459e_35ec_41a6_8289_a505a4c1839d.jpeg" alt="Dr. Ali Al Khars ">
+                                                                   </div>
 
                     <div class="director-content">
-                        <h2>Dr. Mohammed Nahhas</h2>
+                        <h2>Dr. Ali Al Khars </h2>
 
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Jubha Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
+                            Dr. Ali Al Khars is an accomplished medical professional with an impressive background in General Psychiatry Child and Adolescent Psychiatry and healthcare leadership. As the Hospital and Medical Director for Almana Hospital in Al Al-Ahsa, Dr. Al Khars has been instrumental in driving the hospital’s success for almost two decades.
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas began his successful medical career after graduating from King Abdulaziz University. He has held various prestigious positions, including Chairman of the Orthopedic Department and Head of the Sarcoma Unit at King Fahad Specialist Hospital Dammam.
+                            Prior to his current role, Dr. Al Khars served as a Psychiatrist and Medical Director of Al Ahsa Psychiatric Hospital for more than 17 years, where he gained extensive experience in the field of Psychiatry and Hospital Management. He Holds a medical degree from King Faisal University and has completed an esteemed diploma in Psychological Medicine from King Saud University and the Royal College of Physicians and Surgeon Ireland.
                         </p>
 
                         <p>
-                            After graduating from King Abdulaziz University College of Medicine, he traveled to Canada to continue his education in Orthopedic Surgery at McGill University in Montreal. He later completed fellowships in Musculoskeletal Oncology at the University of Montreal and Sports Medicine at the University of Toronto.
+                            Dr. Ali Al Khars has also pursued further education and training in the field of psychiatry, having completed a Diploma in Child and Adolescent Psychiatry from the University of London and the Arab Board of Psychiatry. In addition, he holds a Master’s in Business Administration from the University of Delaware, which had equipped him with the knowledge and skills to effectively manage and lead the hospital.
                         </p>
 
                         <p>
-                            Driven to expand his knowledge beyond clinical practice, Dr. Nahhas earned a Master of Science in Health Administration from the University of Alabama and completed a Healthcare Management Program at Harvard Medical School.
+                            Dr. Ali’s national and international post graduate Psychiatric Qualifications and his experience in the field of General Psychiatry and Child and Adolescent Psychiatry which extends for more than 35 years have earned him a well-deserved reputation as a leader in the Psychiatric field in addition to Health Care Management.
                         </p>
 
                         <p>
@@ -123,7 +120,7 @@
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas’s commitment to his patients, expertise in his field, and continuous pursuit of excellence make him a highly regarded figure in the medical community.
+                            Dr. Talal Nahhas’s commitment to his patients, expertise in his field, and continuous pursuit of excellence make him a highly regarded figure in the medical community.
                         </p>
                     </div>
 
@@ -137,7 +134,7 @@
                         <span>Out Patient Clinics “OPD”</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>1st Shift</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -147,7 +144,7 @@
                         <span>Pharmacies</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span>2nd Shift</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -157,7 +154,7 @@
                         <span>Head Office</span>
 
                         <div class="card-cols">
-                            <span>Time</span>
+                            <span> Monday - Sunday </span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 5:00 PM</span>
                         </div>
@@ -239,5 +236,5 @@
 
 </section>
 
-
 <?php get_footer();?>
+

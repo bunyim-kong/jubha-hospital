@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
+<link rel="stylesheet"href="<?php echo get_template_directory_uri(); ?>/css/pages/hospital.css"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 
@@ -8,50 +8,47 @@
 
 <div class="header-page">
     <span><a href="<?php echo home_url('home'); ?>">Home</a> / <a href="<?php echo home_url('hospital-and-clinic'); ?>">Hospital and Clinic</a> / AMC Rakkah</span>
-    <h1 class="">AMC Rakkah</h1>
+    <h1 class="">AGH Jubail </h1>
 </div>
 
 <section class="hospital-section container">
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
+            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/s_jubail_building_rehan_1.jpg">
 
             <div class="hero-overlay">
-                <h2>AMC Rakkah</h2>
+                <h2>AGH Jubail </h2>
 
                 <a class="appointment-btn" href="#">Book an Appointment</a>
             </div>
         </div>
     </section>
 
-    <!-- COUNTERS -->
-    <section class="counter-content">
-        <div class="counter left-corner">
-            <i class="fa-solid fa-users"></i>
-            <h3>532</h3>
-            <p>Workforce</p>
-        </div>
-
+     <section class="counter-content">
         <div class="counter">
-            <i class="fa-solid fa-user-doctor"></i>
-            <h3>53</h3>
-            <p>Doctors</p>
+            <i class="fa-solid fa-bed"></i>
+            <h3>100</h3>
+            <p>Beds</p>
         </div>
-
         <div class="counter">
-            <i class="fa-solid fa-hospital"></i>
-            <h3>5</h3>
-            <p>Floors</p>
+            <i class="fa-solid fa-bed"></i>
+            <h3>100</h3>
+            <p>Beds</p>
+        </div>
+        <div class="counter">
+            <i class="fa-solid fa-bed"></i>
+            <h3>100</h3>
+            <p>Beds</p>
+        </div>
+    
+        <div class="counter">
+            <i class="fa-solid fa-bed"></i>
+            <h3>100</h3>
+            <p>Beds</p>
         </div>
 
-        <div class="counter right-corner">
-            <i class="fa-solid fa-stethoscope"></i>
-            <h3>75</h3>
-            <p>Clinics</p>
-        </div>
     </section>
-
 
     <!-- TABS -->
     <section class="tabs">
@@ -74,17 +71,17 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Jubha Rakah Clinics</strong> <BR></BR>
-                    Jubha Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
+                    <strong>Welcome to Jubha General Hospital Jubail, </strong> <BR></BR>
+                    
 
-                    With over 75 clinics covering various medical specialties, Jubha Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    We take pride in being a state-of-the-art tertiary general hospital, providing exceptional healthcare services with a capacity of 100 beds. Located strategically within the bustling Industrial City of Jubail, we offer convenient access to patients in the area and surrounding cities. <BR></BR>
 
-                    In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
+                    Our hospital has been meticulously designed and equipped to meet the specific healthcare needs of the working force and residents of Jubail Industrial City. We understand the unique challenges posed by industrial environments, and our facility is specially designed to handle industrial traumas and accidents. This includes expertise in handling road traffic accidents (RTAs), industrial accidents, chemical poisoning cases, and industrial gas explosions.<BR></BR>
 
-                    With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
+                    Alongside our complex care offering, we provide a comprehensive range of specialized services to cater to our patients' diverse needs. This includes neurosurgery for spinal and head injuries, general surgical procedures, medical endoscopic diagnostic procedures, and comprehensive orthopedic interventions such as total knee replacement surgeries.<BR></BR>
 
-                    At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
-
+                    At Almana General Hospital, Jubail, your health and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals.<BR></BR>
+                    
                     We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
                 </p>
             </div>
@@ -94,36 +91,36 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director/Dr._Mohammed_Nahhas.png" alt="Dr. Mohammed Nahhas">
-                    </div>
+                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-689349/unnamed.jpg" alt="Dr. Faisal Abdalla Hashim ">
+                                           </div>
 
                     <div class="director-content">
-                        <h2>Dr. Mohammed Nahhas</h2>
+                        <h2>Dr. Faisal Abdalla Hashim </h2>
 
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Jubha Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
+                            Dr.Faisal Hashim is a distinguished medical professional who currently serves as the Hospital and Medical Director at Almana General Hospital in Jubail, Saudi Arabia.
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas began his successful medical career after graduating from King Abdulaziz University. He has held various prestigious positions, including Chairman of the Orthopedic Department and Head of the Sarcoma Unit at King Fahad Specialist Hospital Dammam.
+                           With a remarkable career spanning over 24 years, Dr.Faisal Hashim has played various key roles in the hospital, including serving as the Head of Medical Departments, Consultant Physician Internist, and Chief of the Medical Staff. His extensive experience and expertise have contributed immensely to the growth and development of the Almana Group of Hospitals, making it one of the leading healthcare institutions in the region.
                         </p>
 
                         <p>
-                            After graduating from King Abdulaziz University College of Medicine, he traveled to Canada to continue his education in Orthopedic Surgery at McGill University in Montreal. He later completed fellowships in Musculoskeletal Oncology at the University of Montreal and Sports Medicine at the University of Toronto.
+                           Dr. Faisal Hashim is a highly educated and accomplished medical professional, having graduated from the prestigious Faculty of Medicine at the University of Khartoum in Sudan. He holds a Ph.D. in Endocrine Immunology from the University of Wales College of Medicine in Cardiff, United Kingdom, and has also earned a diploma in Biomedical Methods.
                         </p>
 
                         <p>
-                            Driven to expand his knowledge beyond clinical practice, Dr. Nahhas earned a Master of Science in Health Administration from the University of Alabama and completed a Healthcare Management Program at Harvard Medical School.
+                            He is a distinguished member and fellow of the Royal College of Physicians in Edinburgh, United Kingdom, reflecting his dedication to professional development and his commitment to staying at the forefront of advancements in the medical field. His academic achievements and wealth of experience have made him a respected authority in the medical community, both locally and internationally
                         </p>
 
                         <p>
-                            A respected member of numerous professional organizations, he actively participates in the American Academy of Orthopedic Surgeons (AAOS), the Canadian Orthopedic Association (COA), and serves on the Credentialing and Privileges Committee at King Fahad Specialist Hospital.
+                           Dr.Faisal Hashim is a prolific writer, having co-authored over 40 publications in a range of esteemed medical journals. His scholarly works include contributions to prestigious publications such as Current Topics in Thyroid Autoimmunity, the Journal of Endocrinological Investigation, and the International Congress of Infectious Diseases.
                         </p>
 
                         <p>
-                            Dr. Mohammed Nahhas’s commitment to his patients, expertise in his field, and continuous pursuit of excellence make him a highly regarded figure in the medical community.
+                            Dr.Faisal Hashim's research and publications demonstrate his passion for advancing medical knowledge and his commitment to improving patient outcomes. His extensive contributions to the field have earned him recognition as a leading authority in endocrinology and immunology, both nationally and internationally.
                         </p>
                     </div>
 
@@ -239,5 +236,5 @@
 
 </section>
 
-
 <?php get_footer();?>
+
