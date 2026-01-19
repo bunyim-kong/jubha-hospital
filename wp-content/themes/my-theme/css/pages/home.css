@@ -434,6 +434,27 @@
   margin-bottom: 40px;
 }
 
+
+.video-hightlight{
+  width: 100%;
+  max-width: var(--maxw);
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  margin: auto;
+
+}
+
+
+
+.video img {
+  width: 516px;
+  height: 319px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
 .sub-title {
   color: var(--btn-prim);
   font-weight: 700;
@@ -726,15 +747,3 @@
         flex: 0 0 calc(50% - 15px);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
