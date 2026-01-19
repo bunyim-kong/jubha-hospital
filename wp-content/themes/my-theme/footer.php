@@ -75,4 +75,6 @@
     <div class="copyright">
         &copy; 2026 Intercare Hospital. All rights reserved
     </div>
+
+    <?php wp_footer(); ?>
 </footer>

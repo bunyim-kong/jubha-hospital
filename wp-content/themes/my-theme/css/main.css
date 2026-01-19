@@ -74,3 +74,10 @@ body {
 .head_des {
     font-size: 19px;
 }
+
+.fc {
+    width: 100%;
+    max-width: var(--maxw);
+    margin: 230px auto 100px;
+    overflow: visible;
+}
