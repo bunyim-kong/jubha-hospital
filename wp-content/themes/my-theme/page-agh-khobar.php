@@ -83,7 +83,7 @@
 
                     With a capacity of 250 inpatient beds, we are fully equipped to accommodate a significant number of patients who require specialized care. Additionally, our outpatient building features 74 clinics, providing convenient access to a wide range of medical consultations and treatments. <BR></BR>
 
-                    At Almana General Hospital, Khobar, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
+                    At Jubha General Hospital, Khobar, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
 
                     We look forward to welcoming you to Almana Rakah Clinics and providing you with the highest quality of care. <br>
                 </p>
@@ -103,7 +103,7 @@
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Almana Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
+                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Jubha Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
                         </p>
 
                         <p>

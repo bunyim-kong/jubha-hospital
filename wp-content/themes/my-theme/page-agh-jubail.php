@@ -71,7 +71,7 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Almana General Hospital Jubail, </strong> <BR></BR>
+                    <strong>Welcome to Jubha General Hospital Jubail, </strong> <BR></BR>
                     
 
                     We take pride in being a state-of-the-art tertiary general hospital, providing exceptional healthcare services with a capacity of 100 beds. Located strategically within the bustling Industrial City of Jubail, we offer convenient access to patients in the area and surrounding cities. <BR></BR>
@@ -81,7 +81,8 @@
                     Alongside our complex care offering, we provide a comprehensive range of specialized services to cater to our patients' diverse needs. This includes neurosurgery for spinal and head injuries, general surgical procedures, medical endoscopic diagnostic procedures, and comprehensive orthopedic interventions such as total knee replacement surgeries.<BR></BR>
 
                     At Almana General Hospital, Jubail, your health and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals.<BR></BR>
-                    We look forward to welcoming you to Almana Rakah Clinics and providing you with the highest quality of care. <br>
+                    
+                    We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
                 </p>
             </div>
 

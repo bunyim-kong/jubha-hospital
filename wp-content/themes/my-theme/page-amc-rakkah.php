@@ -74,18 +74,18 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to Almana Rakah Clinics</strong> <BR></BR>
-                    Almana Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
+                    <strong>Welcome to Jubha Rakah Clinics</strong> <BR></BR>
+                    Jubha Rakah Clinics, a cutting-edge medical facility, built to the highest standards of medical engineering, spans 5 floors and is dedicated to providing exceptional healthcare services to our community. <BR></BR>
 
-                    With over 75 clinics covering various medical specialties, Almana Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    With over 75 clinics covering various medical specialties, Jubha Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
 
                     In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
 
                     With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
 
-                    At Almana Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
+                    At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
 
-                    We look forward to welcoming you to Almana Rakah Clinics and providing you with the highest quality of care. <br>
+                    We look forward to welcoming you to Jubha Rakah Clinics and providing you with the highest quality of care. <br>
                 </p>
             </div>
 
@@ -103,7 +103,7 @@
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Almana Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
+                            Dr. Mohammed Nahhas is an accomplished Orthopedic Surgeon specializing in Musculoskeletal Oncology and Sports Medicine. Currently serving as the Medical Director of Jubha Medical Center, Rakah, Dr. Nahhas has been a dedicated leader at the hospital since 2015.
                         </p>
 
                         <p>
@@ -137,7 +137,7 @@
                         <span>Out Patient Clinics “OPD”</span>
 
                         <div class="card-cols">
-                            <span><i class="far fa-calendar-alt"></i> Monday - Sunday </span>
+                            <span>Time</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -147,7 +147,7 @@
                         <span>Pharmacies</span>
 
                         <div class="card-cols">
-                            <span><i class="far fa-calendar-alt"></i> Monday - Sunday </span>
+                            <span>Time</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 10:00 PM</span>
                         </div>
@@ -157,7 +157,7 @@
                         <span>Head Office</span>
 
                         <div class="card-cols">
-                            <span><i class="far fa-calendar-alt"></i> Monday - Sunday </span>
+                            <span>Time</span>
 
                             <span><i class="far fa-clock"></i> 8:00 AM - 5:00 PM</span>
                         </div>

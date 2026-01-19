@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/s_DSC02925_copy.jpg">
+            <img src="https://i.pinimg.com/1200x/c8/90/ea/c890ea6091a896dec3339857e2b15774.jpg">
             <div class="hero-overlay">
                 <h2>AGH Hofuf</h2>
 
@@ -25,28 +25,28 @@
     </section>
 
      <section class="counter-content">
-        <div class="counter left-corner">
-            <i class="fa-solid fa-users"></i>
-            <h3>532</h3>
-            <p>Workforce</p>
+         <div class="counter">
+            <i class="fa-solid fa-bed"></i>
+            <h3>150</h3>
+            <p>Beds</p>
         </div>
 
         <div class="counter">
             <i class="fa-solid fa-user-doctor"></i>
-            <h3>53</h3>
+            <h3>150+</h3>
             <p>Doctors</p>
         </div>
 
         <div class="counter">
             <i class="fa-solid fa-bed"></i>
-            <h3>250</h3>
+            <h3>150</h3>
             <p>Beds</p>
         </div>
 
-        <div class="counter right-corner">
-            <i class="fa-solid fa-house-chimney-medical"></i>
-            <h3>74</h3>
-            <p>Clinics</p>
+        <div class="counter">
+            <i class="fa-solid fa-user-doctor"></i>
+            <h3>150</h3>
+            <p>Doctors</p>
         </div>
     </section>
 
@@ -71,18 +71,18 @@
             <!-- overview -->
             <div class="content overview">
                 <p>
-                    <strong>Welcome to jubha General Hospital, Dammam Since its establishment in the early '90s, our hospital has emerged as a leading healthcare facility in the region, dedicated to providing quality healthcare services.</strong> <BR></BR>
-                    Accredited by the prestigious Joint Commission International (JCI), we are recognized for our exceptional standards of care and are a referral center for specialized treatments. <BR></BR>
+                    <strong>Welcome to J Geneubharal Hospital Hofuf.</strong> <BR></BR>
+                    Jubha General Hospital, Hofuf is equipped with state-of-the-art facilities and staffed by a team of highly skilled and compassionate healthcare professionals.<BR></BR>
 
-                    With over 75 clinics covering various medical specialties, Almana Medical Center in Al-Raka District proudly stands as the largest digital medical center in the Eastern Province. One of our standout features is the Diabetes and Endocrine Diseases Unit, the largest of its kind in the region. This specialized unit is staffed with highly skilled doctors who are experts in the field of diabetes, endocrine diseases, nutrition, and more. Patients can trust that they will receive comprehensive and personalized care for their diabetes and endocrine-related conditions. <BR></BR>
+                    We offer a comprehensive range of services across various specialties to meet the diverse healthcare needs of our patients. <BR></BR>
 
-                    In addition, our medical center houses state-of-the-art Dermatology and Cosmetic clinics equipped with the latest and most advanced equipment. Whether for dermatological consultations, cosmetic procedures, or specialized treatments, our clinics offer a wide range of services to cater to various skincare needs. <BR></BR>
+                    We excel in a comprehensive range of specialized services including Dermatology, Obstetrics and Gynecology, Pediatrics, Orthopedics, ENT (Ear Nose Throat), Internal Medicine, General Surgery, Ophthalmology, Dental, Radiology, Laboratory, And Physiotherapy.<BR></BR>
 
-                    With a workforce of over 532 individuals, including 80 skilled doctors, we have the expertise and resources to deliver exceptional medical care. Our dedicated team is committed to your well-being and looks forward to serving you with compassion and excellence. <BR></BR>
+                    At Jubha General Hospital in Hofuf, we prioritize your health and well-being above all else. Our facility is equipped with 150 beds and staffed by 150+ teams of highly skilled medical professionals. We are dedicated to delivering exceptional healthcare services, leveraging the latest technology to ensure your utmost care and satisfaction.<BR></BR>
 
-                    At Almana Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
+                    At Jubha Rakah Clinics, your health, and well-being are our top priorities. We are committed to providing you with exceptional healthcare services, utilizing the latest technology and supported by our highly skilled medical professionals. <BR></BR>
 
-                    We look forward to welcoming you to Almana Rakah Clinics and providing you with the highest quality of care. <br>
+                    We look forward to welcoming you to Jubha General Hospital, Hofuf, and providing you with the highest standard of care. <br>
                 </p>
             </div>
 
@@ -91,28 +91,28 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-461572/Dr._Talal_Aldhary.png" alt="Dr. Talal Aldhary  ">
-                                           </div>
+                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-589977/e95e459e_35ec_41a6_8289_a505a4c1839d.jpeg" alt="Dr. Ali Al Khars ">
+                                                                   </div>
 
                     <div class="director-content">
-                        <h2>Dr. Talal Aldhary </h2>
+                        <h2>Dr. Ali Al Khars </h2>
 
                         <span class="director-title">Medical Director</span>
 
                         <p class="intro">
-                            Dr. Talal Aldahry is a highly accomplished and well-respected medical professional, currently holding the esteemed position of Hospital and Medical Director at Almana General Hospital in Dammam, Saudi Arabia.
+                            Dr. Ali Al Khars is an accomplished medical professional with an impressive background in General Psychiatry Child and Adolescent Psychiatry and healthcare leadership. As the Hospital and Medical Director for Almana Hospital in Al Al-Ahsa, Dr. Al Khars has been instrumental in driving the hospital’s success for almost two decades.
                         </p>
 
                         <p>
-                            Boasting an impressive 32 years of experience in the medical field, Dr.Talal Aldahry has held several notable roles throughout his career, including serving as Assistant Director General for the Eastern Health Committee, Director of the Private Health Sector Affairs Department, and Chief Resident Physician of the Internal Medicine at Dammam Central Hospital.
+                            Prior to his current role, Dr. Al Khars served as a Psychiatrist and Medical Director of Al Ahsa Psychiatric Hospital for more than 17 years, where he gained extensive experience in the field of Psychiatry and Hospital Management. He Holds a medical degree from King Faisal University and has completed an esteemed diploma in Psychological Medicine from King Saud University and the Royal College of Physicians and Surgeon Ireland.
                         </p>
 
                         <p>
-                            Dr.Talal Aldahry holds a Bachelor of Medicine and Surgery, as well as a certificate from the Saudi Specialty Program for Internal Medicine, further demonstrating his dedication and expertise in the field.
+                            Dr. Ali Al Khars has also pursued further education and training in the field of psychiatry, having completed a Diploma in Child and Adolescent Psychiatry from the University of London and the Arab Board of Psychiatry. In addition, he holds a Master’s in Business Administration from the University of Delaware, which had equipped him with the knowledge and skills to effectively manage and lead the hospital.
                         </p>
 
                         <p>
-                            Driven to expand his knowledge beyond clinical practice, Dr. Nahhas earned a Master of Science in Health Administration from the University of Alabama and completed a Healthcare Management Program at Harvard Medical School.
+                            Dr. Ali’s national and international post graduate Psychiatric Qualifications and his experience in the field of General Psychiatry and Child and Adolescent Psychiatry which extends for more than 35 years have earned him a well-deserved reputation as a leader in the Psychiatric field in addition to Health Care Management.
                         </p>
 
                         <p>
