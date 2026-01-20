@@ -76,7 +76,7 @@
     </nav>
 
     <div class="header-button">
-      <a href="#" class="appointment-btn">
+      <a href="<?php echo home_url('doctor-schedule'); ?>" class="appointment-btn">
         Make An Appointment <i class="fas fa-chevron-right"></i>
       </a>
     </div>
