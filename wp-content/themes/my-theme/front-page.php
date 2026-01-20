@@ -73,7 +73,7 @@
 
         <div class="slide-overlay">
           <div class="overlay-text">
-            <span class="eyebrow">Almana Group of Hospitals</span>
+            <span class="eyebrow">Jubha Group of Hospitals</span>
             <h2 class="section-title" style="color: var(--sec-color);">Quality Healthcare Closer <br>
             to You
             </h2>
@@ -92,7 +92,7 @@
 
         <div class="slide-overlay">
           <div class="overlay-text">
-            <span class="eyebrow">Almana Group of Hospitals</span>
+            <span class="eyebrow">Jubha Group of Hospitals</span>
             <h2 class="section-title" style="color: var(--sec-color);">
               Care at Your Fingertips
             </h2>
@@ -315,7 +315,7 @@
                               <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/cath.svg" alt="icon"></div>
                               <div class="card-info">
                                   <h3>Cath Lab</h3>
-                                  <p>Almana Hospital's Cath Lab Department</p>
+                                  <p>Jubha Hospital's Cath Lab Department</p>
                               </div>
                           </div>
                       </div>
@@ -341,7 +341,7 @@
                               <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/endoscopy_3.svg" alt="icon"></div>
                               <div class="card-info">
                                   <h3>Endoscopy</h3>
-                                  <p>Almana Hospital's Endoscopy Department</p>
+                                  <p>Jubha Hospital's Endoscopy Department</p>
                               </div>
                           </div>
                       </div>
@@ -354,7 +354,7 @@
                               <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Intensive_Care.svg" alt="icon"></div>
                               <div class="card-info">
                                   <h3>Intensive Care Unit</h3>
-                                  <p>Almana Hospital's ICU Department</p>
+                                  <p>Jubha Hospital's ICU Department</p>
                               </div>
                           </div>
                       </div>
@@ -380,7 +380,7 @@
                               <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/pathology_laboratory.svg" alt="icon"></div>
                               <div class="card-info">
                                   <h3>Pathology & Laboratory</h3>
-                                  <p>Almana Hospital's Lab Department</p>
+                                  <p>Jubha Hospital's Lab Department</p>
                               </div>
                           </div>
                       </div>

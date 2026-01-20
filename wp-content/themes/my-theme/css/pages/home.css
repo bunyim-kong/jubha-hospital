@@ -434,6 +434,14 @@
   margin-bottom: 40px;
 }
 
+.video img {
+  width: 516px;
+  height: 319px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
 .sub-title {
   color: var(--btn-prim);
   font-weight: 700;

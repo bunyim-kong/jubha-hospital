@@ -1,0 +1,147 @@
+/* =====================
+   Global Reset
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* =====================
+   Outpatient Section
+===================== */
+.outpatient-section {
+  padding: 80px 0;
+}
+
+.outpatient-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* =====================
+   Content
+===================== */
+.breadcrumb {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.breadcrumb .active {
+  color: #0a5ed7;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #102a43;
+  margin-bottom: 25px;
+}
+
+/* =====================
+   Abstract Card
+===================== */
+.abstract-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color:var(--prim-hover);
+  margin-bottom: 12px;
+}
+
+/* Pulsing Dot */
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.pulse {
+  animation: pulse 1.6s infinite;
+}
+
+.abstract-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* =====================
+   Buttons
+===================== */
+.cta-group {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Primary Button */
+.btn-primary {
+  background: linear-gradient(135deg, #0a5ed7, #0f74ff);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(15, 116, 255, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(15, 116, 255, 0.45);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  border: 2px solid #0a5ed7;
+  color: #0a5ed7;
+  background: transparent;
+}
+
+
+.image-frame {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.image-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.image-frame:hover img {
+  transform: scale(1.05);
+}
