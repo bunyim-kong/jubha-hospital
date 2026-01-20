@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/header.css"/>
 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 
 <header class="navbar">
@@ -60,7 +61,15 @@
         </div>
       </div>
 
-      <a href="#">Patient Information</a>
+    <div class="dropdown">
+        <p>Patient Information <i class="fas fa-caret-down"></i></p>
+
+        <div class="dropdown-menu">
+          <a href="<?php echo home_url('patient-information'); ?>">In patient</a>
+          <a href="<?php echo home_url('outpatient'); ?>">Outpatient</a>
+          <a href="<?php echo home_url('visitor-information'); ?>">Visitor Information</a>
+        </div>
+      </div>
 
       <div class="dropdown">
         <p>About us <i class="fas fa-caret-down"></i></p>

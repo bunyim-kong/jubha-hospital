@@ -400,13 +400,6 @@
             </div>
         </div>
 
-
-        <div class="video-hightlight">
-            <div class="video">
-                <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/videos/s_Screenshot_2025_04_09_093000.png" alt="Pediatric Bone Health">
-            </div>
-        </div>
-
         <div class="dept-swiper-container">
                 <div class="dept-wrapper">
                     

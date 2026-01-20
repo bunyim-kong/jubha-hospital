@@ -434,19 +434,6 @@
   margin-bottom: 40px;
 }
 
-
-.video-hightlight{
-  width: 100%;
-  max-width: var(--maxw);
-  display: flex;
-  justify-content:start;
-  align-items: center;
-  margin: auto;
-
-}
-
-
-
 .video img {
   width: 516px;
   height: 319px;
