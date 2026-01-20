@@ -3,7 +3,7 @@
  * Plugin Name: Doctor Schedule Calendar
  * Description: Manage doctor availability with calendar view.
  * Version: 1.1
- * Author: ChatGPT
+ * Author: Chuwawa
  */
 if (!defined('ABSPATH')) exit;
 
