@@ -124,16 +124,29 @@
             <option value="">Select Hospital</option>
             <option value="AMC Rakkah">AMC Rakkah</option>
             <option value="AGH Khobar">AGH Khobar</option>
-            </select>
+            <option value="AGH Dammam">AGH Dammam</option>
+            <option value="AGH Aziziah Dammam">AGH Aziziah Dammam</option>
+            <option value="AGH Jubail">AGH Jubail</option>
+            <option value="AGH Jubail2">AGH Jubail</option>
+            <option value="AGH Hofuf">AGH Hofuf</option>
+          </select>
         </div>
 
         <div class="input-field">
           <label>Specialization</label>
           <select name="specialization" required>
             <option value="">Select Specialty</option>
-            <option value="Cardiology">Cardiology</option>
-            <option value="Dermatology">Dermatology</option>
-            </select>
+            <option value="Respiratory Therapy">Respiratory Therapy</option>
+            <option value="Anesthesiology">Anesthesiology</option>
+            <option value="Cardiac Surgery">Cardiac Surgery</option>
+            <option value="Physical Therapy">Physical Therapy</option>
+            <option value="Cath Lab">Cath Lab</option>
+            <option value="Emergency">Emergency</option>
+            <option value="Endoscopy">Endoscopy</option>
+            <option value="Intensive Care Unit">Intensive Care Unit</option>
+            <option value="Nursery">Nursery</option>
+            <option value="Pathology & Laboratory">Pathology & Laboratory</option>
+          </select>
         </div>
 
         <div class="submit-field">
