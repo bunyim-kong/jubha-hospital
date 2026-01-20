@@ -23,7 +23,7 @@
                 <span>OR</span>
             </div>
             
-            <a class="appointment-btn" href="https://patportal.almanahospital.com.sa:1034/appointments" target="_blank">
+            <a class="appointment-btn" href="<?php echo home_url('doctor-schedule'); ?>" target="_blank">
                 Book An Appointment
             </a>
         </div>

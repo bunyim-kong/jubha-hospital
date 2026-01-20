@@ -19,7 +19,7 @@
             <div class="hero-overlay">
                 <h2>AGH Hofuf</h2>
 
-                <a class="appointment-btn" href="#">Book an Appointment</a>
+                <a class="appointment-btn" href="<?php echo home_url('doctor-schedule'); ?>">Book an Appointment</a>
             </div>
         </div>
     </section>

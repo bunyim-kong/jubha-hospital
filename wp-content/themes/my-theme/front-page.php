@@ -22,7 +22,7 @@
             <h2 class="section-title" style="color: var(--sec-color);">Dedicated <br>
             National Talent
             </h2>
-            <a href="#" class="appointment-btn"
+            <a href="<?php echo home_url('doctor-schedule'); ?>" class="appointment-btn"
               >Book Now <i class="fas fa-chevron-right"></i>
             </a>
           </div>
@@ -41,7 +41,7 @@
             <h2 class="section-title" style="color: var(--sec-color);">OPD Clinics Open <br>
             Until 10 PM
             </h2>
-            <a href="#" class="appointment-btn">
+            <a href="<?php echo home_url('doctor-schedule'); ?>" class="appointment-btn">
               Book Now <i class="fas fa-chevron-right"></i>
             </a>
           </div>
@@ -59,7 +59,7 @@
             <h2 class="section-title" style="color: var(--sec-color);">Easier Communication <br>
             with Almana WhatsApp
             </h2>
-            <a href="#" class="appointment-btn">
+            <a href="<?php echo home_url('doctor-schedule'); ?>" class="appointment-btn">
               Book Now <i class="fas fa-chevron-right"></i>
             </a>
           </div>
@@ -77,7 +77,7 @@
             <h2 class="section-title" style="color: var(--sec-color);">Quality Healthcare Closer <br>
             to You
             </h2>
-            <a href="#" class="appointment-btn">
+            <a href="<?php echo home_url('hospital-and-clinic'); ?>" class="appointment-btn">
                Explore our locations <i class="fas fa-chevron-right"></i>
             </a>
           </div>
@@ -515,7 +515,7 @@
             <div class="location-info">
                 <h1>AGH Khobar</h1>
 
-                <a href=""><i class="fas fa-map-marker-alt"></i> View Detail</a>
+                <a href="<?php echo home_url('agh-khobar'); ?>"><i class="fas fa-map-marker-alt"></i> View Detail</a>
                 <a href=""><i class="fas fa-calendar-check"></i> Timings</a>
             </div>
         </article>

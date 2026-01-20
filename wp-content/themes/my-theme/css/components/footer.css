@@ -132,3 +132,7 @@ footer {
     font-size: 14px;
     color: var(--sec-color);
 }
+
+#wpadminbar {
+    display: none;
+}
