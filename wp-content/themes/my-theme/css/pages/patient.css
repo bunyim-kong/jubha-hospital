@@ -1,0 +1,151 @@
+/* 1. Hide all panels by default */
+.tab-panel {
+    display: none;
+    animation: slideUp 0.4s ease forwards;
+}
+
+/* 2. Show the panel that matches the #ID in the URL */
+.tab-panel:target {
+    display: block;
+}
+
+/* 3. Show the Privacy panel if no section is selected (Home state) */
+#privacy-content {
+    display: block;
+}
+
+/* 4. If any other panel is targeted, hide the default Privacy panel */
+:target ~ #privacy-content,
+.tab-panel:target {
+    display: block;
+}
+
+/* Special rule to ensure only the targeted one shows */
+.content-area section:not(:target) {
+    display: none;
+}
+/* If a target exists, show that target even if it's the privacy one */
+#privacy-content:target {
+    display: block;
+}
+
+/* --- YOUR ORIGINAL STYLES --- */
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--almana-gray-bg);
+    color: var(--almana-text);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: var(--maxw);
+    margin: 0 auto;
+}
+
+.main-layout {
+    display: flex;
+    gap: 30px;
+}
+
+
+.text-if{
+    color: var(--footer-bg);
+}
+
+.sidebar {
+    flex: 0 0 300px;
+    background: var(--almana-white);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    height: fit-content;
+}
+
+.sidebar-title {
+    color: var(--almana-navy);
+    font-family: var(--head-font);
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--almana-teal);
+}
+
+.mission-list ul {
+    list-style: none;
+}
+
+
+.mission-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.mission-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--btn-prim);
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+.sidebar-nav ul { 
+    list-style: none; 
+    padding: 0; 
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: var(--almana-text);
+    display: block;
+    padding: 12px 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+    background-color: var(--bg-sec);
+    color: var(--almana-teal);
+}
+
+/* Highlights the link when the section is active */
+.sidebar-nav a:active, .sidebar-nav a:focus {
+    background-color: var(--almana-teal);
+    color: var(--almana-white);
+}
+
+.content-area {
+    flex: 1;
+    background: var(--almana-white);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: var(--shadow);
+}
+
+.featured-image {
+    margin: 12px 0px;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.policy-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid var(--almana-border);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.policy-item i { color: var(--almana-teal); font-size: 1.4rem; }
