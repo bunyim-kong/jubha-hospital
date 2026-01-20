@@ -51,7 +51,7 @@
               </li>
               <li><a href="#Policies & Procedures for Organ & Tissue Donation">Organ & Tissue Donation</a></li>
               <li>
-                <a href="#responsibility-content">Responsibility of Families</a>
+                <a href="#Responsibility of Patients and their Families">Responsibility of Families</a>
               </li>
             </ul>
           </nav>
