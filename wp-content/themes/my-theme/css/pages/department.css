@@ -1,0 +1,132 @@
+.department-section {
+    padding: 34px 0px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.departments-single-section {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.departments-single-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 61, 77, 0.15);
+}
+
+.department-inner-img {
+    overflow: hidden;
+}
+
+.department-inner-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.departments-inner-head {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.departments-inner-head-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.counter-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--bg-sec);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.counter-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-head {
+    font-family: var(--head-font);
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--nav-bg);
+}
+
+.departments-inner-head p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Stats Section */
+.icons-department {
+    display: flex;
+    background: var(--bg-sec);
+    padding: 12px;
+    justify-content: space-around;
+    font-size: 0.85rem;
+}
+
+.icons-department-single a {
+    text-decoration: none;
+    color: var(--nav-bg);
+    font-weight: 600;
+}
+
+.number {
+    color: var(--btn-prim);
+    font-weight: 800;
+}
+
+/* Footer Buttons */
+.location-strip-main {
+    display: flex;
+    border-top: 1px solid #eee;
+}
+
+.location-strip-main div {
+    flex: 1;
+    text-align: center;
+}
+
+.location-strip-main a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: var(--head-font);
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.location-strip-main-1 a {
+    background: #fff;
+    color: var(--nav-bg);
+}
+
+.location-strip-main-2 a {
+    background: var(--btn-prim);
+    color: var(--sec-color);
+}
+
+.location-strip-main-2 a:hover {
+    background: var(--prim-hover);
+}

@@ -263,7 +263,7 @@
                 <span class="sub-headline">Departments</span>
                 <h2 class="main-title">7 Decades of <strong>Excellence</strong></h2>
             </div>
-            <a href="all-department" class="appointment-btn">All Departments</a>
+            <a href="<?php echo home_url('department'); ?>" class="appointment-btn">All Departments</a>
         </div>
 
         <div class="dept-swiper-container">
