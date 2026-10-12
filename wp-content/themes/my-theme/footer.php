@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/footer.css"/>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
