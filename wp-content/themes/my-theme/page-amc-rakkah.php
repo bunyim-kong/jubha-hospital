@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/medical-center-rakkah.webp'; ?>" alt="Almana Medical Center Rakkah">
 
             <div class="hero-overlay">
                 <h2>AMC Rakkah</h2>
@@ -94,7 +94,7 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director/Dr._Mohammed_Nahhas.png" alt="Dr. Mohammed Nahhas">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/director-mohammed-nahhas.webp'; ?>" alt="Dr. Mohammed Nahhas">
                     </div>
 
                     <div class="director-content">

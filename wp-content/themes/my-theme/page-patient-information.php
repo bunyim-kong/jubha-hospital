@@ -67,7 +67,7 @@
             </header>
             <div class="featured-image">
               <img
-                src="https://ds4kyztv1rtw.cloudfront.net/uploads/emergency-room-instructions/JAAN8692.jpg"
+                src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-emergency.webp'; ?>"
                 alt="Emergency"
               />
             </div>
@@ -122,7 +122,7 @@
             </header>
             <div class="featured-image">
               <img
-                src="https://ds4kyztv1rtw.cloudfront.net/uploads/privacy-and-confidentiality/JAAN8443.jpg"
+                src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-talent.webp'; ?>"
                 alt="Rooms"
               />
             </div>
@@ -145,7 +145,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/patients-and-their-families-have-the-right-to-health-care/JAAN8207.jpg" alt="Patients &amp; their Families have the Right to Health Care">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-whatsapp.webp'; ?>" alt="Patients and their families receiving healthcare">
             </div>
 
             <ul class="mission-list">
@@ -173,7 +173,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/knowing-the-rights-and-responsibilities-of-patients-and-their-families/JAAN8321.jpg" alt="Knowing the Rights and Responsibilities of Patients &amp; their Families">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/banner3.webp'; ?>" alt="Patient and family responsibilities">
             </div>
             <ul class="mission-list">
                     <li>Understanding and fully exercise the rights, and provide all possible means inside and outside the facility to introduce the document of patients’ rights and responsibilities, and provide an electronic or paper copy upon entering the facility or registering in it, in the health service provision departments and waiting areas.</li>
@@ -190,7 +190,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/providing-healthcare-services-and-care-based-on-respect-and-appreciation/JAAN8294.jpg" alt="Providing Healthcare Services &amp; Care based on Respect &amp; Appreciation">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-talent.webp'; ?>" alt="Respectful healthcare services">
             </div>
             <ul class="mission-list">
                     <li>Providing adequate health care at all times and under all circumstances in a way that preserves their dignity without compromising their religious, doctrinal and spiritual beliefs and their cultural and social background.</li>
@@ -207,7 +207,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/privacy-and-confidentiality/JAAN8443.jpg" alt="Privacy &amp; Confidentiality">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-cardiology.webp'; ?>" alt="Privacy and confidentiality">
             </div>
             <ul class="mission-list">
                     <li>Providing privacy and confidentiality when discussing the patient’s treatment program, whether with him or his legal guardian.</li>
@@ -228,7 +228,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/provide-protection-and-safety/JAAN8403.jpg" alt="Provide Protection &amp; Safety">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-emergency.webp'; ?>" alt="Protection and safety">
             </div>
             <ul class="mission-list">
             <li>Providing health care in a safe, clean and sterile environment.</li>
@@ -254,7 +254,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/participation-in-the-healthcare-plan9/JAAN8657.jpg" alt="Participation in the Healthcare Plan">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-whatsapp.webp'; ?>" alt="Participation in the healthcare plan">
             </div>
             <ul class="mission-list">
                 <li>Enable the patient and their families to communicate with the treatment team to obtain complete and updated information regarding the diagnosis, the proposed treatment, its expected benefits, the expected results, and knowledge of suggested medical alternatives. Also, complications, risks, and the probability of treatment success in the language they understand.</li>
@@ -279,7 +279,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/refusal-of-treatment/JAAN8395.jpg" alt="Refusal of Treatment">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-intensive-care.webp'; ?>" alt="Treatment decisions">
             </div>
             <ul class="mission-list">
                    <li>Informing the patient of the possibility of refusing all or part of the prescribed treatment in a manner that does not conflict with the applicable laws and regulations and informing them of the expected results of the refusal decision. Also, the follow-up to the treatment instructions, with the need from them to sign the acknowledgment form for the scheduled procedure and document this in the patient's file.</li>
@@ -296,7 +296,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-             <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/knowing-the-material-costs-and-health-insurance/JAAN8528.jpg" alt="Knowing the Material Costs &amp; Health Insurance">
+             <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/about.webp'; ?>" alt="Healthcare costs and insurance">
             </div>
             <ul class="mission-list">
                     <li>Obtain approximate information on the expected cost before starting treatment.</li>
@@ -319,7 +319,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/clarity-and-comprehensiveness-of-forms-and-reports/JAAN8526.jpg" alt="Clarity &amp; Comprehensiveness of Forms &amp; Reports">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-pathology.webp'; ?>" alt="Medical forms and reports">
             </div>
             <ul class="mission-list">
                    <li>Authorizing a person to sign on the medical authorization and to take decisions on their behalf, when necessary, with their knowledge and the full consent of the patient.</li>
@@ -335,7 +335,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/knowing-policies-and-procedures-for-complaints-and-suggestions/JAAN8445.jpg" alt="Knowing Policies &amp; Procedures for Complaints &amp; Suggestions">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-talent.webp'; ?>" alt="Policies for complaints and suggestions">
             </div>
             <ul class="mission-list">
                     <li>Submit oral or written suggestions, requests, inquiries, or complaints, signed or not, to the health facility, without any impact on the quality of service provided to them, with the possibility of raising a complaint to various levels in the health facility.</li>
@@ -352,7 +352,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/policies-and-procedures-for-organ-and-tissue-donation/JAAN8355.jpg" alt="Policies &amp; Procedures for Organ &amp; Tissue Donation">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-cardiology.webp'; ?>" alt="Organ and tissue donation">
             </div>
             <ul class="mission-list">
                 <li>You have the right to donate organs or tissues to one of your family members or others, and to have advice that shows the benefits and risks, you should contact the Saudi Center for Organ Transplantation (SCOT) phone number: 8001245500.</li>
@@ -367,7 +367,7 @@
               <div class="breadcrumb">In Patient / Rooms & Services</div>
             </header>
             <div class="featured-image">
-              <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/responsibility-of-patients-and-their-families/JAAN8187.jpg" alt="Responsibility of Patients and their Families">
+              <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/banner3.webp'; ?>" alt="Responsibilities of patients and their families">
             </div>
             <ul class="mission-list">
             <li>Providing health care in a safe, clean and sterile environment.</li>

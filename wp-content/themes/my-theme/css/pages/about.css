@@ -165,7 +165,7 @@
 .bg-image {
     width: 110%;
     height: 110%;
-    background-image: url('https://ds4kyztv1rtw.cloudfront.net/uploads/static_bg.jpg') ;
+    background-image: url('../../asset/images/almana/medical-background.webp');
     filter: 
     brightness(80%)
     contrast(1.05)
@@ -271,11 +271,23 @@
     z-index: 2;
 }
 
+.feature-card .icon {
+    color: var(--nav-bg);
+    font-size: 30px;
+    line-height: 1;
+    position: relative;
+    z-index: 2;
+}
+
 .feature-card:hover .bg {
     width: 600px;
     height: 600px;
     border-radius: 0;
     background: var(--nav-bg);
+}
+
+.feature-card:hover .icon {
+    color: var(--sec-color);
 }
 
 .feature-card h1 {
@@ -363,6 +375,12 @@
     width: 45px;
     height: 45px;
     filter: contrast(1);
+}
+
+.icon-wrapper i {
+    color: var(--nav-bg);
+    font-size: 34px;
+    line-height: 1;
 }
 
 .stat-info h2 {
@@ -668,6 +686,12 @@
 .value-icon img {
     width: 40px;
     height: 40px;
+}
+
+.value-icon i {
+    color: var(--nav-bg);
+    font-size: 30px;
+    line-height: 1;
 }
 
 /* Content Styling */

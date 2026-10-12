@@ -19,7 +19,7 @@
             <div class="visionary-image-area">
                 <div class="image-frame">
                     <picture>
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/ceos-message/WhatsApp_Image_2025_07_27_at_10.49.35_fbf89c60__1_.jpg" alt="Prof. Awad Al-Omari">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/ceo-awad-al-omari.webp'; ?>" alt="Prof. Awad Al-Omari">
                     </picture>
                     <div class="frame-decoration"></div>
                 </div>

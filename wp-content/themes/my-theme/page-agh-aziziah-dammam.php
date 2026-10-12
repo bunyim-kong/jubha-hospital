@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-aziziah.webp'; ?>" alt="Al Mana General Hospital Aziziah">
 
             <div class="hero-overlay">
                 <h2>AGH Aziziah Dammam </h2>
@@ -95,7 +95,7 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                       <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-700281/Dr._Saleh_Nasser_Alahmed.png" alt="Dr. Saleh Nasser Alahmed  ">
+                       <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/director-saleh-alahmed.webp'; ?>" alt="Dr. Saleh Nasser Alahmed">
                                             </div>
 
                     <div class="director-content">

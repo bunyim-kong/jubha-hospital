@@ -27,7 +27,7 @@
       </div>
 
       <div class="top-info">
-        <img src="images/call.png" alt="" />
+        <i class="fas fa-phone" aria-hidden="true"></i>
         <span>+966 920033440</span>
       </div>
 
@@ -44,7 +44,7 @@
   <!-- ===== MENU AREA ===== -->
   <div class="menu-header container">
     <nav class="nav-menu">
-      <a href="<?php echo home_url('home'); ?>">Home</a>
+      <a href="<?php echo home_url('/'); ?>">Home</a>
 
       <div class="dropdown">
         <p>Hospital & Clinics <i class="fas fa-caret-down"></i></p>

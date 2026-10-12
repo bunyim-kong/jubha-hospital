@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-         <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/s_AMC_jubail_1.jpg">
+         <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/medical-center-jubail.webp'; ?>" alt="Almana Medical Center Jubail">
             <div class="hero-overlay">
                 <h2>AGH Jubail </h2>
 
@@ -89,7 +89,7 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-689349/unnamed.jpg" alt="Dr. Faisal Abdalla Hashim ">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/director-faisal-hashim.webp'; ?>" alt="Dr. Faisal Abdalla Hashim">
                                            </div>
 
                     <div class="director-content">

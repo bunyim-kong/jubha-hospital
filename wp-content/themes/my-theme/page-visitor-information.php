@@ -43,8 +43,8 @@
             <div class="info-image">
                 <div class="image-wrapper">
                     <picture>
-                        <source media="(min-width: 1200px)" srcset="https://ds4kyztv1rtw.cloudfront.net/uploads/visitor-information/JAAN8387.jpg">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/visitor-information/s_JAAN8387.jpg" alt="Visitor Information">
+                        <source media="(min-width: 1200px)" srcset="<?php echo get_template_directory_uri() . '/asset/images/almana/visitor.webp'; ?>">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/visitor.webp'; ?>" alt="Visitor information">
                     </picture>
                     <div class="image-accent"></div>
                 </div>

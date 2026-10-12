@@ -56,6 +56,12 @@
     width: 18px;
 }
 
+.top-info i {
+    width: 18px;
+    color: var(--nav-bg);
+    text-align: center;
+}
+
 /* Social */
 .social-links {
     margin-left: auto;

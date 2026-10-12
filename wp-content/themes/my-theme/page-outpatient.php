@@ -33,9 +33,9 @@
             <div class="outpatient-visual">
                 <div class="image-frame">
                     <picture>
-                        <source media="(min-width: 1200px)" srcset="https://ds4kyztv1rtw.cloudfront.net/uploads/outpatient2/JAAN8268.jpg">
-                        <source media="(min-width: 992px)" srcset="https://ds4kyztv1rtw.cloudfront.net/uploads/outpatient2/l_JAAN8268.jpg">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/outpatient2/s_JAAN8268.jpg" alt="Outpatient Care">
+                        <source media="(min-width: 1200px)" srcset="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-opd.webp'; ?>">
+                        <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-opd.webp'; ?>">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-opd.webp'; ?>" alt="Outpatient care">
                     </picture>
                 </div>
             </div>

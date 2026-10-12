@@ -33,10 +33,10 @@
                 <h4>Download Almana Hospital’s New App for better Patient Experience.</h4>
                 <div class="apps-qr-wrapper">
                     <a href="https://apps.apple.com/us/app/almana-hospital/id1587010153" target="_blank">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-appstore-qr.svg" alt="App Store">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/qr-ios.png'; ?>" alt="App Store QR code">
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.almanadoctorsapp&pli=1" target="_blank">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-playstore-qr.svg" alt="google-play">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/qr-android.png'; ?>" alt="Google Play QR code">
                     </a>
 
                     
@@ -44,7 +44,7 @@
             </div>
 
             <div class="mobile-mockup">
-                <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/mobile-popa/pop_mobile_1.png" alt="Mobile App">
+                <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/app-dashboard.webp'; ?>" alt="Almana mobile app">
             </div>
         </div>
     </div>

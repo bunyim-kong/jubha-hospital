@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-dammam.webp'; ?>" alt="Almana General Hospital Dammam">
 
             <div class="hero-overlay">
                 <h2>AGH Dammam</h2>
@@ -66,7 +66,7 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-461572/Dr._Talal_Aldhary.png" alt="Dr. Talal Aldhary  ">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/doctor-placeholder.webp'; ?>" alt="Dr. Talal Aldhary">
                                            </div>
 
                     <div class="director-content">

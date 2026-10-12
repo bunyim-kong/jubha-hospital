@@ -19,7 +19,7 @@
     <div class="location-content-wrapper">
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-medical-center-rakah1/DSC06581.jpg" alt="Hospital 1"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/medical-center-rakkah.webp'; ?>" alt="Almana Medical Center Rakkah"/>
 
             <div class="location-info">
                 <h1>AMC Rakkah</h1>
@@ -30,7 +30,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-khobar1/DJI_0093_Edit_2_1.png" alt="Hospital 2"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-khobar.webp'; ?>" alt="Almana General Hospital Khobar"/>
 
             <div class="location-info">
                 <h1>AGH Khobar</h1>
@@ -41,7 +41,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-dammam/00.jpg" alt="Hospital 3"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-dammam.webp'; ?>" alt="Almana General Hospital Dammam"/>
 
             <div class="location-info">
                 <h1>AGH Dammam</h1>
@@ -52,7 +52,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-oncology-center-dammam1/DJI_0019_3_JACAL.jpg" alt="Hospital 4"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/dispensary-dammam.webp'; ?>" alt="Almana Medical Dispensary Dammam"/>
 
             <div class="location-info">
                 <h1>Almana Oncology Center – Dammam</h1>
@@ -63,7 +63,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-al-aziziah-dammam/_DSC0512.png" alt="Hospital 5"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-aziziah.webp'; ?>" alt="Al Mana General Hospital Aziziah"/>
 
             <div class="location-info">
                 <h1>AGH Aziziah Dammam</h1>
@@ -74,7 +74,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-jubail/jubail_building_rehan.jpg" alt="Hospital 6"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-jubail.webp'; ?>" alt="Almana General Hospital Jubail"/>
 
             <div class="location-info">
                 <h1>AGH Jubail</h1>
@@ -85,7 +85,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-medical-center-jubail/AMC_jubail.jpg" alt="Hospital 7"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/medical-center-jubail.webp'; ?>" alt="Almana Medical Center Jubail"/>
 
             <div class="location-info">
                 <h1>AGH Jubail</h1>
@@ -96,7 +96,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-al-ahsa1/DSC02925_copy.jpg" alt="Hospital 8"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-hofuf.webp'; ?>" alt="Almana General Hospital Hofuf"/>
 
             <div class="location-info">
                 <h1>AGH Hofuf</h1>

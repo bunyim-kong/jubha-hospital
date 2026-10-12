@@ -152,7 +152,7 @@
 
 .counter i{
     font-size:36px;
-    color:var(--btn-prim);
+    color:var(--nav-bg);
 }
 
 .counter h3{

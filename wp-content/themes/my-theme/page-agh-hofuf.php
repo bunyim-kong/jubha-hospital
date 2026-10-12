@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://i.pinimg.com/1200x/c8/90/ea/c890ea6091a896dec3339857e2b15774.jpg">
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-hofuf.webp'; ?>" alt="Almana General Hospital Hofuf">
             <div class="hero-overlay">
                 <h2>AGH Hofuf</h2>
 
@@ -91,7 +91,7 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-589977/e95e459e_35ec_41a6_8289_a505a4c1839d.jpeg" alt="Dr. Ali Al Khars ">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/director-ali-al-khars.webp'; ?>" alt="Dr. Ali Al Khars">
                                                                    </div>
 
                     <div class="director-content">

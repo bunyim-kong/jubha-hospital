@@ -15,7 +15,7 @@
     
     <section class="hero">
         <div class="hero-slide">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/DSC06581.jpg">
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-khobar.webp'; ?>" alt="Almana General Hospital Khobar">
 
             <div class="hero-overlay">
                 <h2>AGH khobar</h2>
@@ -94,7 +94,7 @@
                 <div class="director-container">
 
                     <div class="director-image">
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-director-189712/21783914_9b31_4524_a135_7541451f6c28.jpeg" alt="Dr. Baher Aldamanhori ">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/director-baher-aldamanhori.webp'; ?>" alt="Dr. Baher Aldamanhori">
                                             </div>
 
                     <div class="director-content">

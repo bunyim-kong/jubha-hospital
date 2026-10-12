@@ -402,6 +402,12 @@
   filter: contrast(1);
 }
 
+.icon-wrapper i {
+  color: var(--nav-bg);
+  font-size: 34px;
+  line-height: 1;
+}
+
 .stat-info h2 {
   font-family: var(--head-font);
   font-size: 36px;
@@ -534,6 +540,12 @@
 .icon-box img {
   width: 26px;
   filter: brightness(0) invert(1);
+}
+
+.icon-box i {
+  color: var(--nav-bg);
+  font-size: 23px;
+  line-height: 1;
 }
 
 .card-info h3 {

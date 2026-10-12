@@ -64,7 +64,7 @@
     flex: 2;
     min-width: 300px;
     background-color: var(--bg-sec);
-    background-image: url('https://ds4kyztv1rtw.cloudfront.net/uploads/mobile-popa/pop_up_bgs.png');
+    background-image: url('../../asset/images/almana/hero-app.webp');
     background-size: cover;
     filter: brightness(90%);
     border-radius: 15px;

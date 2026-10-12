@@ -59,7 +59,7 @@
         <div class="values-list">
             <div class="value-item">
                 <div class="value-icon">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/integrity__1_.svg" alt="Integrity">
+                    <i class="fas fa-scale-balanced" aria-hidden="true"></i>
                 </div>
                 <div class="value-content">
                     <h4>Integrity</h4>
@@ -69,7 +69,7 @@
 
             <div class="value-item">
                 <div class="value-icon">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/values.svg" alt="Value of Trust">
+                    <i class="fas fa-handshake" aria-hidden="true"></i>
                 </div>
                 <div class="value-content">
                     <h4>Value of Trust</h4>
@@ -79,7 +79,7 @@
 
             <div class="value-item">
                 <div class="value-icon">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/compassion.svg" alt="Care">
+                    <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
                 </div>
                 <div class="value-content">
                     <h4>Care, Compassion & Collaboration</h4>
@@ -89,7 +89,7 @@
 
             <div class="value-item">
                 <div class="value-icon">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/respect_1.svg" alt="Respect">
+                    <i class="fas fa-people-group" aria-hidden="true"></i>
                 </div>
                 <div class="value-content">
                     <h4>Respect</h4>
@@ -99,7 +99,7 @@
 
             <div class="value-item">
                 <div class="value-icon">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/patient.svg" alt="Excellence">
+                    <i class="fas fa-bullseye" aria-hidden="true"></i>
                 </div>
                 <div class="value-content">
                     <h4>Patient Focused Excellence</h4>

@@ -34,7 +34,7 @@
                 <a href="https://youtu.be/QdM77xj2C0I?si=B9oZmV19PteUUz9G" target="_blank" class="video-trigger">
                     <div class="overlay-gradient"></div>
 
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/JAAN8284.jpg" alt="Almana Hospital Building">
+                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/about.webp'; ?>" alt="Almana hospital network">
 
                     <div class="play-icon">
                         <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +87,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/Anesthesiology.svg">
+                        <i class="icon fas fa-syringe" aria-hidden="true"></i>
                     </a>
                     <h1>Anesthesiology</h1>
                 </div>
@@ -95,7 +95,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/cardiology.svg" alt="Cardiac Surgery">
+                        <i class="icon fas fa-heart-pulse" aria-hidden="true"></i>
                     </a>
                     <h1>Cardiac Surgery</h1>
                 </div>
@@ -103,7 +103,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/cath.svg">
+                        <i class="icon fas fa-stethoscope" aria-hidden="true"></i>
                     </a>
                     <h1>Cath Lab</h1>
                 </div>
@@ -111,7 +111,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/emergency.svg">
+                        <i class="icon fas fa-truck-medical" aria-hidden="true"></i>
                     </a>
                     <h1>Emergency</h1>
                 </div>
@@ -119,7 +119,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/endoscopy_3.svg">
+                        <i class="icon fas fa-microscope" aria-hidden="true"></i>
                     </a>
                     <h1>Endoscopy</h1>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/Intensive_Care.svg">
+                        <i class="icon fas fa-bed-pulse" aria-hidden="true"></i>
                     </a>
                     <h1>Intensive Care Unit</h1>
                 </div>
@@ -135,7 +135,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/nursery.svg">
+                        <i class="icon fas fa-baby" aria-hidden="true"></i>
                     </a>
                     <h1>Nursery</h1>
                 </div>
@@ -143,7 +143,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/physical_therapy.svg">
+                        <i class="icon fas fa-person-walking" aria-hidden="true"></i>
                     </a>
                     <h1>Physical Therapy</h1>
                 </div>
@@ -151,7 +151,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/respiratory_therapy.svg">
+                        <i class="icon fas fa-lungs" aria-hidden="true"></i>
                     </a>
                     <h1>Respiratory Therapy</h1>
                 </div>
@@ -159,7 +159,7 @@
                 <div class="feature-card">
                     <a href="">
                         <span class="bg"></span>
-                        <img class="icon" src="https://ds4kyztv1rtw.cloudfront.net/uploads/thoracic_surgery.svg">
+                        <i class="icon fas fa-user-doctor" aria-hidden="true"></i>
                     </a>
                     <h1>Thoracic Surgery</h1>
                 </div>
@@ -180,7 +180,7 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="icon-wrapper">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/nurse.svg" alt="Professionals">
+                    <i class="fas fa-users" aria-hidden="true"></i>
                 </div>
                 <div class="stat-info">
                     <h2 class="counter" data-target="6500">6,500+</h2>
@@ -190,7 +190,7 @@
 
             <div class="stat-card">
                 <div class="icon-wrapper">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                    <i class="fas fa-user-doctor" aria-hidden="true"></i>
                 </div>
                 <div class="stat-info">
                     <h2 class="counter" data-target="800">800+</h2>
@@ -209,7 +209,7 @@
             <div class="visionary-image-area">
                 <div class="image-frame">
                     <picture>
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/legacy-of-healthcare-excellence/history_img_2.jpg" alt="Sheikh Mohammed Abdulla Almana">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/chairman-ibrahim-almana.webp'; ?>" alt="Almana leadership">
                     </picture>
                     <div class="frame-decoration"></div>
                 </div>

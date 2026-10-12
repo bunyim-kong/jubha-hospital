@@ -13,7 +13,7 @@
       <!-- slide highligh -->
       <div class="swiper-slide">
         <img
-          src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/website_banner_4x_1.png"
+          src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-talent.webp'; ?>"
           alt=""/>
 
         <div class="slide-overlay">
@@ -31,7 +31,7 @@
 
       <div class="swiper-slide">
         <img
-          src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/ALMANA_OPD_ExtendedWorkingHours_Web_Banner.jpg"
+          src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-opd.webp'; ?>"
           alt=""
         />
 
@@ -50,7 +50,7 @@
 
       <div class="swiper-slide">
         <img
-          src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/ALMANA_WhatsApp_Web_Banner_EN.jpg"
+          src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-whatsapp.webp'; ?>"
           alt=""/>
 
         <div class="slide-overlay">
@@ -68,7 +68,7 @@
       
       <div class="swiper-slide">
         <img
-          src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/banner2.png"
+          src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-locations.webp'; ?>"
           alt=""/>
 
         <div class="slide-overlay">
@@ -86,7 +86,7 @@
 
       <div class="swiper-slide">
         <img
-          src="https://ds4kyztv1rtw.cloudfront.net/uploads/banner/banner3.png"
+          src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-app.webp'; ?>"
           alt=""
         />
 
@@ -182,7 +182,7 @@
                 <a href="https://youtu.be/QdM77xj2C0I?si=B9oZmV19PteUUz9G" target="_blank" class="video-trigger">
                     <div class="overlay-gradient"></div>
 
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/overview/JAAN8284.jpg" alt="Almana Hospital Building">
+                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/about.webp'; ?>" alt="Almana hospital network">
 
                     <div class="play-icon">
                         <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -215,7 +215,7 @@
           <div class="stats-grid">
               <div class="stat-card">
                   <div class="icon-wrapper">
-                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/workforce_1.svg" alt="Qualified Workforce ">
+                    <i class="fas fa-users" aria-hidden="true"></i>
                       </div>
                   <div class="stat-info">
                       <h2 class="counter" data-target="6500">6,500+</h2>
@@ -225,7 +225,7 @@
 
               <div class="stat-card">
                   <div class="icon-wrapper">
-                      <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Group_2141.svg" alt="Doctors">
+                      <i class="fas fa-user-doctor" aria-hidden="true"></i>
                   </div>
                   <div class="stat-info">
                       <h2 class="counter" data-target="800">800</h2>
@@ -235,7 +235,7 @@
 
               <div class="stat-card">
                   <div class="icon-wrapper">
-                      <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/departments.svg" alt="Medical Facilities ">
+                      <i class="fas fa-hospital" aria-hidden="true"></i>
                   </div>
                   <div class="stat-info">
                       <h2 class="counter" data-target="800">10</h2>
@@ -245,7 +245,7 @@
 
               <div class="stat-card">
                   <div class="icon-wrapper">
-                      <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/bed.svg" alt="Total beds">
+                      <i class="fas fa-bed" aria-hidden="true"></i>
                   </div>
                   <div class="stat-info">
                       <h2 class="counter" data-target="1 300">1300+</h2>
@@ -271,9 +271,9 @@
                     
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href=""><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/respiratory-therapy/l_shutterstock_1692460999.jpg" class="card-bg"></a>
+                          <a href=""><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-talent.webp'; ?>" class="card-bg" alt="Respiratory therapy"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/respiratory_therapy.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-lungs" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Respiratory Therapy</h3>
                                   <p>Specialized Lung Care</p>
@@ -284,9 +284,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href=""><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/anesthesiology/l_shutterstock_2083979461.jpg" class="card-bg"></a>
+                          <a href=""><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hero-whatsapp.webp'; ?>" class="card-bg" alt="Anesthesiology"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Anesthesiology.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-syringe" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Anesthesiology</h3>
                                   <p>Safe Pain Management</p>
@@ -297,9 +297,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href=""><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/cardiology/l_shutterstock_1905695371.jpg" class="card-bg"></a>
+                          <a href=""><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-cardiology.webp'; ?>" class="card-bg" alt="Cardiology"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/cardiology.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-heart-pulse" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Cardiac Surgery</h3>
                                   <p>Expert Heart Care</p>
@@ -310,9 +310,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="physical-therapy"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/physical-therapy/l_shutterstock_1902491581.jpg" class="card-bg"></a>
+                          <a href="physical-therapy"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-intensive-care.webp'; ?>" class="card-bg" alt="Physical therapy"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/physical_therapy.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-person-walking" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Physical Therapy</h3>
                                   <p>Almana Hospital's Physical Therapy</p>
@@ -323,9 +323,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="cath-lab"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/cath-lab/l_shutterstock_1113511148.jpg" class="card-bg"></a>
+                          <a href="cath-lab"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-cath-lab.webp'; ?>" class="card-bg" alt="Cath lab"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/cath.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-stethoscope" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Cath Lab</h3>
                                   <p>Jubha Hospital's Cath Lab Department</p>
@@ -336,9 +336,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="emergency-medicine"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/emergency-medicine/l_shutterstock_1189798267.jpg" class="card-bg"></a>
+                          <a href="emergency-medicine"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-emergency.webp'; ?>" class="card-bg" alt="Emergency medicine"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/emergency.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-truck-medical" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Emergency</h3>
                                   <p>Almana Hospital's Emergency Department</p>
@@ -349,9 +349,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="endoscopy"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/endoscopy/l_shutterstock_1054047983.jpg" class="card-bg"></a>
+                          <a href="endoscopy"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-pathology.webp'; ?>" class="card-bg" alt="Endoscopy"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/endoscopy_3.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-microscope" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Endoscopy</h3>
                                   <p>Jubha Hospital's Endoscopy Department</p>
@@ -362,9 +362,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="intensive-care"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/intensive-care/l_shutterstock_1698410182.jpg" class="card-bg"></a>
+                          <a href="intensive-care"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-intensive-care.webp'; ?>" class="card-bg" alt="Intensive care"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/Intensive_Care.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-bed-pulse" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Intensive Care Unit</h3>
                                   <p>Jubha Hospital's ICU Department</p>
@@ -375,9 +375,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="nursery"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/nursery/l_shutterstock_1141042889.jpg" class="card-bg"></a>
+                          <a href="nursery"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-nursery.webp'; ?>" class="card-bg" alt="Nursery"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/nursery.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-baby" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Nursery</h3>
                                   <p>Almana Hospital's Nursery</p>
@@ -388,9 +388,9 @@
 
                   <div class="dept-slide">
                       <div class="dept-card">
-                          <a href="pathology-and-laboratory"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/pathology-and-laboratory/l_shutterstock_761873569.jpg" class="card-bg"></a>
+                          <a href="pathology-and-laboratory"><img src="<?php echo get_template_directory_uri() . '/asset/images/almana/specialty-pathology.webp'; ?>" class="card-bg" alt="Pathology and laboratory"></a>
                           <div class="glass-overlay">
-                              <div class="icon-box"><img src="https://ds4kyztv1rtw.cloudfront.net/uploads/pathology_laboratory.svg" alt="icon"></div>
+                              <div class="icon-box"><i class="fas fa-flask" aria-hidden="true"></i></div>
                               <div class="card-info">
                                   <h3>Pathology & Laboratory</h3>
                                   <p>Jubha Hospital's Lab Department</p>
@@ -421,7 +421,7 @@
                         <div class="news-card">
                             <a href="successful-scoliosis-surgery-for-14-year-old-girl">
                                 <div class="img-wrapper">
-                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/news/s_Screenshot_2025_04_08_213423.png" alt="Successful Scoliosis Surgery">
+                                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/news-breast-cancer.webp'; ?>" alt="Hospital news">
                                     <span class="category-tag">News</span>
                                 </div>
                                 <div class="content">
@@ -436,7 +436,7 @@
                         <div class="news-card">
                             <a href="physiotherapy-types-and-benefits-in-enhancing-quality-of-life">
                                 <div class="img-wrapper">
-                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_DSC08628.jpg" alt="Physiotherapy">
+                                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/news-fellowship.webp'; ?>" alt="Hospital fellowship news">
                                     <div class="date-badge">26 Sep, 2023</div>
                                 </div>
                                 <div class="content">
@@ -451,7 +451,7 @@
                         <div class="news-card">
                             <a href="home-healthcare-service">
                                 <div class="img-wrapper">
-                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/blog/s_Green_and_Black_Dark_Professional_Static_Quote_General_News_Twitter_Post.png" alt="Home Healthcare Service">
+                                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/news-kidney.webp'; ?>" alt="Hospital care news">
                                     <div class="date-badge">26 Sep, 2023</div>
                                 </div>
                                 <div class="content">
@@ -466,7 +466,7 @@
                         <div class="news-card">
                             <a href="signs-of-a-weak-immune-system">
                                 <div class="img-wrapper">
-                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-encyclopedia/s_website_picture_02.jpg" alt="Weak Immune System">
+                                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/news-triplets.webp'; ?>" alt="Hospital medical news">
                                     <span class="category-tag">Medical Encyclopedia</span>
                                 </div>
                                 <div class="content">
@@ -481,7 +481,7 @@
                         <div class="news-card">
                             <a href="leukemia-symptoms-causes-and-treatment">
                                 <div class="img-wrapper">
-                                    <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/medical-encyclopedia/s__3_03.jpg" alt="Leukemia Symptoms">
+                                    <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/news-brain-tumor.webp'; ?>" alt="Hospital medical news">
                                     <span class="category-tag">Medical Encyclopedia</span>
                                 </div>
                                 <div class="content">
@@ -512,7 +512,7 @@
 
     <div class="branch-wrapper">
       <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-medical-center-rakah1/DSC06581.jpg" alt="Hospital 1"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/medical-center-rakkah.webp'; ?>" alt="Almana Medical Center Rakkah"/>
 
             <div class="location-info">
                 <h1>AMC Rakkah</h1>
@@ -523,7 +523,7 @@
         </article>
 
         <article class="location-card">
-            <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/almana-hospital-khobar1/DJI_0093_Edit_2_1.png" alt="Hospital 2"/>
+            <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/hospital-khobar.webp'; ?>" alt="Almana General Hospital Khobar"/>
 
             <div class="location-info">
                 <h1>AGH Khobar</h1>

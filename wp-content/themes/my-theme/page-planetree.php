@@ -19,7 +19,7 @@
             <div class="visionary-image-area">
                 <div class="image-frame">
                     <picture>
-                        <img src="https://ds4kyztv1rtw.cloudfront.net/uploads/planetree/cerificate_plantree_2.jpg" alt="Prof. Awad Al-Omari">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/images/almana/about.webp'; ?>" alt="Almana hospital accreditation">
                     </picture>
                     <div class="frame-decoration"></div>
                 </div>
