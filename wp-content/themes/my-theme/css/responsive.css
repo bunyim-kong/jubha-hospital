@@ -1,0 +1,862 @@
+/*
+ * Responsive safeguards for the existing theme.
+ * These rules only adapt layout and sizing; the original visual design stays intact.
+ */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-x: clip;
+}
+
+img,
+svg,
+video,
+canvas,
+iframe {
+    max-width: 100%;
+}
+
+.dropdown-toggle {
+    margin: 1em 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--sec-color);
+    cursor: pointer;
+    font-family: var(--head-font);
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    transform: translateY(-4px);
+}
+
+.dropdown.is-open .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-menu-toggle {
+    display: none;
+}
+
+@media (max-width: 1328px) {
+    .container,
+    .header-content,
+    .find-doctor-container {
+        width: calc(100% - 48px);
+        max-width: var(--maxw);
+        box-sizing: border-box;
+    }
+
+    .header-inner {
+        gap: 24px;
+    }
+
+    .logo-block {
+        width: auto;
+        flex: 0 0 180px;
+    }
+
+    .top-bar {
+        width: auto;
+        min-width: 0;
+        flex: 1;
+        box-sizing: border-box;
+        gap: 18px;
+        padding-right: 28px;
+        padding-left: 28px;
+    }
+
+    .top-info {
+        min-width: 0;
+        font-size: 13px;
+    }
+
+    .menu-header {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .nav-menu {
+        gap: 18px;
+    }
+
+    .header-button {
+        width: auto;
+        flex: 0 0 auto;
+        margin-right: 0;
+    }
+
+    .header-button .appointment-btn {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 1100px) {
+    body.menu-open {
+        overflow: hidden;
+    }
+
+    .navbar {
+        overflow: visible;
+    }
+
+    .header-inner.container {
+        width: 100%;
+        max-width: none;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        padding: 8px 24px;
+        box-sizing: border-box;
+    }
+
+    .logo-block {
+        flex: 0 0 auto;
+        text-align: left;
+    }
+
+    .logo-block img {
+        width: 145px;
+        height: auto;
+        max-height: 64px;
+        display: block;
+        object-fit: contain;
+    }
+
+    .top-bar {
+        display: none;
+    }
+
+    .mobile-menu-toggle {
+        width: 48px;
+        height: 48px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 0;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 9px;
+        background: transparent;
+        color: var(--sec-color);
+        cursor: pointer;
+    }
+
+    .mobile-menu-toggle span {
+        width: 22px;
+        height: 2px;
+        background: currentColor;
+        border-radius: 2px;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .mobile-menu-toggle[aria-expanded="true"] span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .mobile-menu-toggle[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-menu-toggle[aria-expanded="true"] span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mobile-menu-toggle:focus-visible,
+    .dropdown-toggle:focus-visible {
+        outline: 3px solid var(--btn-prim);
+        outline-offset: 3px;
+    }
+
+    .menu-header.container {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: none;
+        max-height: calc(100vh - 80px);
+        max-height: calc(100dvh - 80px);
+        display: none;
+        align-items: stretch;
+        flex-direction: column;
+        overflow-y: auto;
+        margin: 0;
+        padding: 12px 24px 24px;
+        box-sizing: border-box;
+        background: var(--nav-bg);
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+    }
+
+    .menu-header.is-open {
+        display: flex;
+    }
+
+    .nav-menu {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .nav-menu > a,
+    .dropdown-toggle {
+        width: 100%;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 12px 4px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        text-align: left;
+        transform: none;
+    }
+
+    .nav-menu > a:hover,
+    .dropdown-toggle:hover {
+        transform: none;
+    }
+
+    .dropdown {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .dropdown-menu,
+    .dropdown:hover .dropdown-menu,
+    .dropdown-menu:hover {
+        position: static;
+        width: 100%;
+        min-width: 0;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        overflow: visible;
+        background: var(--bg-prim);
+        box-shadow: none;
+        transition: none;
+    }
+
+    .dropdown.is-open .dropdown-menu,
+    .dropdown.is-open:hover .dropdown-menu {
+        display: flex;
+    }
+
+    .dropdown-menu a {
+        min-height: 46px;
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+        box-sizing: border-box;
+    }
+
+    .dropdown-toggle i {
+        transition: transform 0.2s ease;
+    }
+
+    .dropdown.is-open .dropdown-toggle i {
+        transform: rotate(180deg);
+    }
+
+    .header-button {
+        width: 100%;
+        margin: 16px 0 0;
+        text-align: left;
+    }
+
+    .header-button .appointment-btn {
+        min-height: 48px;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .header-content {
+        padding-top: 140px;
+    }
+
+    /* Home page */
+    .find-doctor-form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .find-doctor-form .submit-field {
+        grid-column: 1 / -1;
+    }
+
+    .find-doctor-btn {
+        width: 100%;
+    }
+
+    .department-infor {
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 24px;
+    }
+
+    .branch-wrapper,
+    .location-content-wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Hospital location pages */
+    .hero,
+    .hero img {
+        height: clamp(460px, 65vh, 650px);
+    }
+
+    .counter-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .tab-buttons {
+        overflow-x: auto;
+        scrollbar-width: thin;
+    }
+
+    .tab-buttons label {
+        flex: 0 0 180px;
+    }
+
+    .director-container {
+        grid-template-columns: minmax(240px, 0.7fr) minmax(0, 1.3fr);
+        gap: 28px;
+    }
+
+    .card-wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* About pages */
+    .visionary-wrapper,
+    .vision-mission-wrapper {
+        gap: 40px;
+    }
+
+    .vision-mission-wrapper {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+    }
+
+    /* Contact page */
+    .doctor-section,
+    .app-section {
+        min-width: min(100%, 300px);
+    }
+
+    /* Footer */
+    .footer-container {
+        gap: 32px;
+    }
+
+    .footer-logo,
+    .footer-section {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container,
+    .header-content,
+    .find-doctor-container {
+        width: calc(100% - 32px);
+    }
+
+    .header-inner.container {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .menu-header.container {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .header-content {
+        padding-top: 118px;
+        padding-bottom: 18px;
+    }
+
+    .header-page span {
+        display: block;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .header-page h1 {
+        margin: 8px 0 0;
+        font-size: clamp(2rem, 10vw, 2.65rem);
+        line-height: 1.12;
+    }
+
+    .section-title,
+    .main-title,
+    .vm-title,
+    .title {
+        font-size: clamp(2rem, 9vw, 2.65rem);
+    }
+
+    /* Home page */
+    .hero-section {
+        height: 100svh;
+        min-height: 600px;
+        max-height: 760px;
+    }
+
+    .slide-overlay {
+        top: 0;
+        height: 100%;
+        padding-top: 80px;
+        box-sizing: border-box;
+    }
+
+    .overlay-text {
+        padding: 0 24px;
+    }
+
+    .find-doctor-section {
+        margin-top: -36px;
+        padding: 0 16px;
+    }
+
+    .find-doctor-container {
+        width: 100%;
+    }
+
+    .find-doctor-card {
+        padding: 24px 20px;
+    }
+
+    .find-doctor-header {
+        margin-bottom: 22px;
+    }
+
+    .find-doctor-title {
+        font-size: 22px;
+    }
+
+    .find-doctor-form {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .find-doctor-form .submit-field {
+        grid-column: auto;
+    }
+
+    .content-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .floating-badge {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .stats-section {
+        margin-top: 64px;
+        padding: 48px 16px 56px;
+    }
+
+    .stats-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .stat-card {
+        min-width: 0;
+        padding: 26px 22px;
+    }
+
+    .production-solution,
+    .branch-section {
+        padding: 56px 0 36px;
+    }
+
+    .department-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .dept-card {
+        height: 340px;
+    }
+
+    .glass-overlay {
+        right: 14px;
+        bottom: 14px;
+        left: 14px;
+        padding: 16px;
+    }
+
+    .branch-wrapper,
+    .location-content-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .location-card {
+        height: 300px;
+    }
+
+    /* Hospital location pages */
+    .hospital-section {
+        width: calc(100% - 32px);
+    }
+
+    .image-hero-cols {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .hero,
+    .hero img {
+        height: clamp(360px, 58svh, 520px);
+    }
+
+    .hero-overlay {
+        width: calc(100% - 40px);
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero-overlay h2 {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    .counter-content {
+        gap: 12px;
+    }
+
+    .counter {
+        min-width: 0;
+        padding: 18px 12px;
+    }
+
+    .counter h3 {
+        font-size: 34px;
+    }
+
+    .counter i {
+        font-size: 30px;
+    }
+
+    .tabs {
+        margin-top: 8px;
+    }
+
+    .tab-buttons label {
+        flex-basis: 155px;
+        padding: 15px 8px;
+        font-size: 16px;
+    }
+
+    .tab-content {
+        padding: 28px 18px;
+    }
+
+    .director-container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        padding: 0;
+    }
+
+    .director-image {
+        max-width: 420px;
+    }
+
+    .director-content h2 {
+        font-size: 30px;
+    }
+
+    .card-wrapper,
+    .doctor-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .card-cols {
+        width: 100%;
+        max-width: none;
+        padding: 0 18px;
+        box-sizing: border-box;
+    }
+
+    .card-cols span {
+        font-size: 16px;
+    }
+
+    .doctor-info {
+        box-sizing: border-box;
+    }
+
+    .doctor-info span {
+        width: fit-content;
+        max-width: 100%;
+    }
+
+    /* About pages */
+    .department-infor,
+    .visionary-wrapper,
+    .vision-mission-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .department-infor .btn {
+        text-align: left;
+    }
+
+    .scroll-container {
+        padding-right: 16px;
+        padding-left: 16px;
+        box-sizing: border-box;
+    }
+
+    .feature-card {
+        flex-basis: 240px;
+    }
+
+    .visionary-section,
+    .vision-mission-section {
+        padding: 56px 0;
+    }
+
+    .vm-card {
+        padding: 32px 24px;
+    }
+
+    .value-item {
+        padding: 24px 20px;
+    }
+
+    /* Contact page */
+    .contact-section {
+        padding-top: 32px;
+    }
+
+    .booking-flex-container {
+        flex-direction: column;
+    }
+
+    .doctor-section,
+    .app-section {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .doctor-section {
+        padding: 16px 24px 32px;
+    }
+
+    .contact-number-big {
+        font-size: clamp(1.5rem, 8vw, 2rem);
+        overflow-wrap: anywhere;
+    }
+
+    .app-section {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        padding: 28px 24px;
+    }
+
+    .mobile-mockup {
+        align-self: center;
+    }
+
+    .mobile-mockup img {
+        width: auto;
+        max-height: 220px;
+    }
+
+    .contact-form-section {
+        width: calc(100% - 32px);
+        margin: 40px auto;
+        padding: 30px 0;
+    }
+
+    .contact-form-area {
+        padding: 0 20px;
+    }
+
+    /* Department page */
+    .department-section .row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    /* Outpatient and visitor pages */
+    .outpatient-section,
+    .info-section {
+        padding: 56px 0;
+    }
+
+    .outpatient-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 36px;
+    }
+
+    .info-grid {
+        gap: 36px;
+    }
+
+    .image-accent {
+        top: -10px;
+        right: -8px;
+    }
+
+    /* Footer */
+    footer {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer-logo,
+    .footer-section {
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    .footer-logo img {
+        width: min(240px, 100%);
+    }
+
+    .footer-logo p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .newsletter input[type="email"] {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .newsletter button {
+        width: auto;
+        min-height: 44px;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-block img {
+        width: 128px;
+    }
+
+    .appointment-btn,
+    .btn-primary,
+    .btn-main {
+        max-width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .overlay-text {
+        padding: 0 18px;
+    }
+
+    .overlay-text .section-title {
+        font-size: clamp(2rem, 11vw, 2.5rem);
+    }
+
+    .find-doctor-card {
+        padding: 22px 16px;
+    }
+
+    .find-doctor-header {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stat-card {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .glass-overlay {
+        align-items: flex-start;
+    }
+
+    .icon-box {
+        width: 44px;
+        height: 44px;
+        flex-basis: 44px;
+    }
+
+    .card-info h3 {
+        font-size: 1.05rem;
+    }
+
+    .card-info p {
+        font-size: 0.8rem;
+    }
+
+    .counter-content {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .counter p {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+
+    .value-item {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .value-icon {
+        margin-right: 0;
+    }
+
+    .apps-qr-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .icons-department,
+    .location-strip-main {
+        flex-wrap: wrap;
+    }
+
+    .location-strip-main div {
+        min-width: 50%;
+    }
+
+    .hours-card,
+    .abstract-card {
+        padding: 22px 18px;
+    }
+}
+
+@media (hover: none) {
+    .location-info {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-menu-toggle span,
+    .dropdown-toggle i {
+        transition: none;
+    }
+}

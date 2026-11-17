@@ -1,6 +1,10 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css?ver=<?php echo filemtime(get_template_directory() . '/css/main.css'); ?>"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/header.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/footer.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css?ver=<?php echo filemtime(get_template_directory() . '/css/responsive.css'); ?>"/>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
@@ -39,17 +43,25 @@
         <a href="#"><i class="fab fa-pinterest-p"></i></a>
       </div>
     </div>
+
+    <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
 
   <!-- ===== MENU AREA ===== -->
-  <div class="menu-header container">
-    <nav class="nav-menu">
+  <div class="menu-header container" id="primary-navigation">
+    <nav class="nav-menu" aria-label="Primary navigation">
       <a href="<?php echo home_url('/'); ?>">Home</a>
 
       <div class="dropdown">
-        <p>Hospital & Clinics <i class="fas fa-caret-down"></i></p>
+        <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="hospital-menu">
+          Hospital &amp; Clinics <i class="fas fa-caret-down"></i>
+        </button>
 
-        <div class="dropdown-menu">
+        <div class="dropdown-menu" id="hospital-menu">
           <a href="<?php echo home_url('hospital-and-clinic'); ?>">All Location</a>
           <a href="<?php echo home_url('amc-rakkah'); ?>">AMC Rakkah</a>
           <a href="<?php echo home_url('agh-khobar'); ?>">AGH Khobar</a>
@@ -62,9 +74,11 @@
       </div>
 
     <div class="dropdown">
-        <p>Patient Information <i class="fas fa-caret-down"></i></p>
+        <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="patient-menu">
+          Patient Information <i class="fas fa-caret-down"></i>
+        </button>
 
-        <div class="dropdown-menu">
+        <div class="dropdown-menu" id="patient-menu">
           <a href="<?php echo home_url('patient-information'); ?>">In patient</a>
           <a href="<?php echo home_url('outpatient'); ?>">Outpatient</a>
           <a href="<?php echo home_url('visitor-information'); ?>">Visitor Information</a>
@@ -72,8 +86,10 @@
       </div>
 
       <div class="dropdown">
-        <p>About us <i class="fas fa-caret-down"></i></p>
-        <div class="dropdown-menu">
+        <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="about-menu">
+          About us <i class="fas fa-caret-down"></i>
+        </button>
+        <div class="dropdown-menu" id="about-menu">
           <a href="<?php echo home_url('overview'); ?>">Overview</a>
           <a href="<?php echo home_url('our-culture'); ?>">Our Culture</a>
           <a href="<?php echo home_url('ceo-message'); ?>">CEO Message</a>

@@ -86,7 +86,7 @@ add_shortcode('doctor_calendar', function($atts) {
                     </select>
                 </div>
 
-                <div class="form-group" style="display:flex; gap:10px;">
+                <div class="form-group time-fields">
                     <div style="flex:1;"><label>Start</label><input type="time" id="pStart" name="start_time" required></div>
                     <div style="flex:1;"><label>End</label><input type="time" id="pEnd" name="end_time" required></div>
                 </div>
@@ -96,15 +96,30 @@ add_shortcode('doctor_calendar', function($atts) {
     </div>
 
     <style>
-        #doctor-calendar { width: 100%; min-height: 700px; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
-        .booking-modal { display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(85, 68, 68, 0.7); }
-        .modal-content { background: #fff; margin: 5% auto; padding: 30px; border-radius: 12px; width: 90%; max-width: 400px; position: relative; }
+        #doctor-calendar { width: calc(100% - 48px); max-width: 1280px; min-height: 700px; margin: 180px auto 60px; padding: 20px; box-sizing: border-box; background: #fff; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .booking-modal { display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; padding: 16px; box-sizing: border-box; overflow-y: auto; background: rgba(85, 68, 68, 0.7); }
+        .modal-content { background: #fff; margin: 5% auto; padding: 30px; box-sizing: border-box; border-radius: 12px; width: 90%; max-width: 400px; position: relative; }
         .close-button { position: absolute; right: 20px; top: 15px; font-size: 28px; cursor: pointer; }
         .form-group { margin-bottom: 15px; }
         .form-group label { display: block; font-weight: bold; margin-bottom: 5px; }
         .form-group input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+        .time-fields { display: flex; gap: 10px; }
+        .time-fields > div { min-width: 0; flex: 1; }
         .book-btn { width: 100%; padding: 12px; background: #00A4A3; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: all .3s ease;}
         .book-btn:hover { background: #003D4D; }
+
+        @media (max-width: 1100px) {
+            #doctor-calendar { margin-top: 112px; }
+        }
+
+        @media (max-width: 767px) {
+            #doctor-calendar { width: calc(100% - 32px); min-height: 620px; padding: 12px; }
+            #doctor-calendar .fc-toolbar { align-items: stretch; flex-direction: column; gap: 10px; }
+            #doctor-calendar .fc-toolbar-title { font-size: 1.35rem; text-align: center; }
+            #doctor-calendar .fc-toolbar-chunk { display: flex; justify-content: center; }
+            .modal-content { width: 100%; margin: 24px auto; padding: 26px 20px; }
+            .time-fields { flex-direction: column; }
+        }
     </style>
 
     <script>
@@ -112,9 +127,10 @@ add_shortcode('doctor_calendar', function($atts) {
         var modal = document.getElementById("bookingModal");
         var form = document.getElementById('appointmentForm');
         var limitS, limitE;
+        var mobileCalendar = window.matchMedia('(max-width: 767px)');
 
         var calendar = new FullCalendar.Calendar(document.getElementById('doctor-calendar'), {
-            initialView: 'timeGridWeek',
+            initialView: mobileCalendar.matches ? 'timeGridDay' : 'timeGridWeek',
             slotMinTime: '07:00:00',
             allDaySlot: false,
             events: <?php echo json_encode($events); ?>,
@@ -135,6 +151,10 @@ add_shortcode('doctor_calendar', function($atts) {
             }
         });
         calendar.render();
+
+        mobileCalendar.addEventListener('change', function(event) {
+            calendar.changeView(event.matches ? 'timeGridDay' : 'timeGridWeek');
+        });
 
         form.onsubmit = function(e) {
             e.preventDefault();

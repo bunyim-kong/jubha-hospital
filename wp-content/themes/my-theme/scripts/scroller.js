@@ -12,7 +12,17 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   const scroller = document.querySelector(".scroller");
+
+  // Most pages do not have a scroller, so leave them without a script error.
+  if (!scroller) {
+    return;
+  }
+
   const track = scroller.querySelector(".scroller__track");
+
+  if (!track || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return;
+  }
 
   // Clone enough cards to fill at least double width
   const cards = Array.from(track.children);

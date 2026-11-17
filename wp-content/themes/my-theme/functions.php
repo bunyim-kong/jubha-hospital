@@ -7,5 +7,13 @@ function theme_scripts() {
         null,
         true
     );
+
+    wp_enqueue_script(
+        'theme-navigation',
+        get_template_directory_uri() . '/scripts/navigation.js',
+        array(),
+        null,
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'theme_scripts');
