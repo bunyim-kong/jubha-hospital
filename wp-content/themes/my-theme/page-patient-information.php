@@ -1,10 +1,10 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/patient.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pages/patient.css?ver=<?php echo filemtime(get_template_directory() . '/css/pages/patient.css'); ?>"/>
 
 <?php get_header(); ?>
 
-<div class="header-page inpatient-header">
+<div class="header-page">
     <div class="header-content">
         <span><a href="<?php echo home_url('home'); ?>">Home</a> / Patient Information / In Patient</span>
         <h1>In Patient</h1>

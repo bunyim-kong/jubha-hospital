@@ -2,37 +2,41 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css?ver=<?php echo filemtime(get_template_directory() . '/css/main.css'); ?>"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/header.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/header.css?ver=<?php echo filemtime(get_template_directory() . '/css/components/header.css'); ?>"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/components/footer.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css?ver=<?php echo filemtime(get_template_directory() . '/css/responsive.css'); ?>"/>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 
+<?php wp_head(); ?>
+
 <header class="navbar">
   <div class="header-inner container">
     <!-- Logo -->
     <div class="logo-block">
-      <a href=""
-        ><img
+      <a href="<?php echo esc_url(home_url('/')); ?>" aria-label="Go to home page">
+        <img
           src="<?php echo get_template_directory_uri() . '/asset/images/logo.png'; ?>"
+          alt="Jubha Hospital"
           width="160"
-      /></a>
+        />
+      </a>
     </div>
 
     <!-- Top Bar -->
     <div class="top-bar">
-      <div class="top-info">
-        <span>info@almanahospital.com.sa</span>
+      <div class="top-info top-info-email">
+        <a href="mailto:info@almanahospital.com.sa">info@almanahospital.com.sa</a>
       </div>
 
-      <div class="top-info">
+      <div class="top-info top-info-address">
         <span>P.O. Box 3568, Al Khobar 31952, Saudi Arabia</span>
       </div>
 
-      <div class="top-info">
+      <div class="top-info top-info-phone">
         <i class="fas fa-phone" aria-hidden="true"></i>
-        <span>+966 920033440</span>
+        <a href="tel:+966920033440">+966 920033440</a>
       </div>
 
       <!-- Social link -->

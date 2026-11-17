@@ -4,7 +4,7 @@ function theme_scripts() {
         'theme-scroller',
         get_template_directory_uri() . '/scripts/scroller.js',
         array(),
-        null,
+        filemtime(get_template_directory() . '/scripts/scroller.js'),
         true
     );
 
@@ -12,7 +12,7 @@ function theme_scripts() {
         'theme-navigation',
         get_template_directory_uri() . '/scripts/navigation.js',
         array(),
-        null,
+        filemtime(get_template_directory() . '/scripts/navigation.js'),
         true
     );
 }
