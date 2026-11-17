@@ -7,8 +7,10 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="">Home</a> / Contact</span>
-    <h1 class="">Contact us</h1>
+    <div class="header-content">
+        <span><a href="">Home</a> / Contact</span>
+        <h1 class="">Contact us</h1>
+    </div>
 </div>
 
 <section class="contact-section container">

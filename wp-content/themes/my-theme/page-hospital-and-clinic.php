@@ -7,8 +7,10 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home');?>">Home</a> / Hospital and Clinic</span>
-    <h1 class="">All Locations</h1>
+    <div class="header-content">
+        <span><a href="<?php echo home_url('home');?>">Home</a> / Hospital and Clinic</span>
+        <h1 class="">All Locations</h1>
+    </div>
 </div>
 
 <section class="hospital-section container">

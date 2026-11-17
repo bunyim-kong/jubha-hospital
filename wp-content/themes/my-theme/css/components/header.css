@@ -22,7 +22,7 @@
 }
 
 .logo-block img {
-    width: 200px;
+    width: 180px;
     height: 100%;
     
 }
@@ -34,7 +34,7 @@
 
 .top-bar {
     width: 80%;
-    height: 40px;
+    height: 25px;
     background-color: #00A4A3;
     color: #f4ebeb;
     font-weight: 600;
@@ -86,13 +86,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px 18px 0px;
+    padding: 2px 0px 14px 35px;
 }
 
 .nav-menu {
     display: flex;
     gap: 25px;
     align-items: center;
+    justify-content: end;
 }
 
 .nav-menu a {

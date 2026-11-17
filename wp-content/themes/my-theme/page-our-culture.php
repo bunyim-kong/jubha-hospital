@@ -11,8 +11,10 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / About us / Our Culture</span>
-    <h1 class="">Our Culture</h1>
+    <div class="header-content">
+        <span><a href="<?php echo home_url('home'); ?>">Home</a> / About us / Our Culture</span>
+        <h1 class="">Our Culture</h1>
+    </div>
 </div>
 
 <section class="vision-mission-section">

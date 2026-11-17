@@ -9,8 +9,10 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / About us / CEO Message</span>
-    <h1 class="">CEO Message</h1>
+    <div class="header-content">
+        <span><a href="<?php echo home_url('home'); ?>">Home</a> / About us / CEO Message</span>
+        <h1 class="">CEO Message</h1>
+    </div>
 </div>
 
 <section class="vision-mission-section">

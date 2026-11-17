@@ -11,8 +11,10 @@
 <?php get_header();?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / About us / Overview</span>
-    <h1 class="">Overview</h1>
+    <div class="header-content">
+        <span><a href="<?php echo home_url('home'); ?>">Home</a> / About us / Overview</span>
+        <h1 class="">Overview</h1>
+    </div>
 </div>
 
 <section class="about-section container">

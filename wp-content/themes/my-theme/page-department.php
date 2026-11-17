@@ -5,8 +5,10 @@
 <?php get_header(); ?>
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / All Department</span>
-    <h1 class="">All Department </h1>
+    <div class="header-content">
+        <span><a href="<?php echo home_url('home'); ?>">Home</a> / All Department</span>
+        <h1 class="">All Department </h1>
+    </div>
 </div>
 
 <section class="department-section container">

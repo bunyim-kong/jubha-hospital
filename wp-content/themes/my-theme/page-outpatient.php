@@ -12,8 +12,10 @@
 
 
 <div class="header-page">
-    <span><a href="<?php echo home_url('home'); ?>">Home</a> / Patient Information / Outpatient</span>
-    <h1 class="">Outpatient</h1>
+    <div class="header-content">
+        <span><a href="<?php echo home_url('home'); ?>">Home</a> / Patient Information / Outpatient</span>
+        <h1 class="">Outpatient</h1>
+    </div>
 </div>
 
 
